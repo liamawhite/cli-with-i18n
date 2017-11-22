@@ -16,7 +16,7 @@ import (
 	"github.com/liamawhite/cli-with-i18n/util/configv3"
 	"github.com/liamawhite/cli-with-i18n/util/panichandler"
 	"github.com/liamawhite/cli-with-i18n/util/ui"
-	log "github.com/sirupsen/logrus"
+	log "github.com/Sirupsen/logrus"
 )
 
 type UI interface {

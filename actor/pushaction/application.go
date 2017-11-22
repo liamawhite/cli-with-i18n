@@ -5,7 +5,7 @@ import (
 
 	"github.com/liamawhite/cli-with-i18n/actor/actionerror"
 	"github.com/liamawhite/cli-with-i18n/actor/v2action"
-	log "github.com/sirupsen/logrus"
+	log "github.com/Sirupsen/logrus"
 )
 
 type Application struct {

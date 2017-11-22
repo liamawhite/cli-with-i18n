@@ -8,7 +8,7 @@ import (
 	"github.com/liamawhite/cli-with-i18n/actor/actionerror"
 	"github.com/liamawhite/cli-with-i18n/actor/v2action"
 	"github.com/liamawhite/cli-with-i18n/types"
-	log "github.com/sirupsen/logrus"
+	log "github.com/Sirupsen/logrus"
 )
 
 func (actor Actor) BindRoutes(config ApplicationConfig) (ApplicationConfig, bool, Warnings, error) {

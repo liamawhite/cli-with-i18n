@@ -7,7 +7,7 @@ import (
 	"github.com/liamawhite/cli-with-i18n/api/cloudcontroller/ccv2"
 	"github.com/liamawhite/cli-with-i18n/api/cloudcontroller/ccv2/constant"
 
-	log "github.com/sirupsen/logrus"
+	log "github.com/Sirupsen/logrus"
 )
 
 // Domain represents a CLI Domain.

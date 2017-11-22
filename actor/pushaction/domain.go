@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"github.com/liamawhite/cli-with-i18n/actor/v2action"
-	log "github.com/sirupsen/logrus"
+	log "github.com/Sirupsen/logrus"
 )
 
 // NoDomainsFoundError is returned when there are no private or shared domains

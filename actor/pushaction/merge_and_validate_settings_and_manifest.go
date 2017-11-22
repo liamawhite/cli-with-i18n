@@ -5,7 +5,7 @@ import (
 	"os"
 
 	"github.com/liamawhite/cli-with-i18n/util/manifest"
-	log "github.com/sirupsen/logrus"
+	log "github.com/Sirupsen/logrus"
 )
 
 type MissingNameError struct{}

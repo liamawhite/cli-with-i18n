@@ -13,7 +13,7 @@ import (
 
 	"testing"
 
-	log "github.com/sirupsen/logrus"
+	log "github.com/Sirupsen/logrus"
 )
 
 func TestV2Action(t *testing.T) {

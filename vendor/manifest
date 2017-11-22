@@ -189,12 +189,12 @@
 			"notests": true
 		},
 		{
-			"importpath": "github.com/docker/docker/vendor/github.com/sirupsen/logrus",
+			"importpath": "github.com/docker/docker/vendor/github.com/Sirupsen/logrus",
 			"repository": "https://github.com/docker/docker",
 			"vcs": "git",
 			"revision": "c9f26eaaf8b9f7977319d6d596f8701bbc58a108",
 			"branch": "master",
-			"path": "vendor/github.com/sirupsen/logrus",
+			"path": "vendor/github.com/Sirupsen/logrus",
 			"notests": true
 		},
 		{
@@ -357,8 +357,8 @@
 			"notests": true
 		},
 		{
-			"importpath": "github.com/sirupsen/logrus",
-			"repository": "https://github.com/sirupsen/logrus",
+			"importpath": "github.com/Sirupsen/logrus",
+			"repository": "https://github.com/Sirupsen/logrus",
 			"vcs": "git",
 			"revision": "85b1699d505667d13f8ac4478c1debbf85d6c5de",
 			"branch": "master",

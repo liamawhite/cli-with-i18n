@@ -16,7 +16,7 @@ import (
 	"github.com/liamawhite/cli-with-i18n/util/configv3"
 	"github.com/liamawhite/cli-with-i18n/util/manifest"
 	"github.com/liamawhite/cli-with-i18n/util/progressbar"
-	log "github.com/sirupsen/logrus"
+	log "github.com/Sirupsen/logrus"
 )
 
 //go:generate counterfeiter . ProgressBar

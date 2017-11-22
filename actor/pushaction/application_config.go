@@ -8,7 +8,7 @@ import (
 	"github.com/liamawhite/cli-with-i18n/actor/v2action"
 	"github.com/liamawhite/cli-with-i18n/api/cloudcontroller/ccv2"
 	"github.com/liamawhite/cli-with-i18n/util/manifest"
-	log "github.com/sirupsen/logrus"
+	log "github.com/Sirupsen/logrus"
 )
 
 type ApplicationConfig struct {

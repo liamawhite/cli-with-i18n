@@ -6,7 +6,7 @@ import (
 
 	"testing"
 
-	log "github.com/sirupsen/logrus"
+	log "github.com/Sirupsen/logrus"
 )
 
 func TestV2(t *testing.T) {

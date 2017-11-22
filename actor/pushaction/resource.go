@@ -6,7 +6,7 @@ import (
 	"github.com/liamawhite/cli-with-i18n/actor/sharedaction"
 	"github.com/liamawhite/cli-with-i18n/actor/v2action"
 
-	log "github.com/sirupsen/logrus"
+	log "github.com/Sirupsen/logrus"
 )
 
 func (actor Actor) CreateArchive(config ApplicationConfig) (string, error) {

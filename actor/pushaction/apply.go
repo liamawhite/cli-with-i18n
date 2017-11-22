@@ -5,7 +5,7 @@ import (
 
 	"github.com/liamawhite/cli-with-i18n/api/cloudcontroller/ccerror"
 
-	log "github.com/sirupsen/logrus"
+	log "github.com/Sirupsen/logrus"
 )
 
 const PushRetries = 3
