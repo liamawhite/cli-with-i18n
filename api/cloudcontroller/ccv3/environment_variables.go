@@ -4,9 +4,9 @@ import (
 	"bytes"
 	"encoding/json"
 
-	"code.cloudfoundry.org/cli/api/cloudcontroller"
-	"code.cloudfoundry.org/cli/api/cloudcontroller/ccv3/internal"
-	"code.cloudfoundry.org/cli/types"
+	"github.com/liamawhite/cli-with-i18n/api/cloudcontroller"
+	"github.com/liamawhite/cli-with-i18n/api/cloudcontroller/ccv3/internal"
+	"github.com/liamawhite/cli-with-i18n/types"
 )
 
 // EnvironmentVariableGroups represents all environment variables on an application

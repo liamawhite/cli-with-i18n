@@ -3,12 +3,12 @@ package shared_test
 import (
 	"fmt"
 
-	"code.cloudfoundry.org/cli/actor/pushaction"
-	"code.cloudfoundry.org/cli/actor/v2action"
-	"code.cloudfoundry.org/cli/api/cloudcontroller/ccv2"
-	. "code.cloudfoundry.org/cli/command/v2/shared"
-	"code.cloudfoundry.org/cli/types"
-	"code.cloudfoundry.org/cli/util/ui"
+	"github.com/liamawhite/cli-with-i18n/actor/pushaction"
+	"github.com/liamawhite/cli-with-i18n/actor/v2action"
+	"github.com/liamawhite/cli-with-i18n/api/cloudcontroller/ccv2"
+	. "github.com/liamawhite/cli-with-i18n/command/v2/shared"
+	"github.com/liamawhite/cli-with-i18n/types"
+	"github.com/liamawhite/cli-with-i18n/util/ui"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/ginkgo/extensions/table"
 	. "github.com/onsi/gomega"

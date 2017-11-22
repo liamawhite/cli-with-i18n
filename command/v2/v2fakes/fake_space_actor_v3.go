@@ -4,8 +4,8 @@ package v2fakes
 import (
 	"sync"
 
-	"code.cloudfoundry.org/cli/actor/v3action"
-	"code.cloudfoundry.org/cli/command/v2"
+	"github.com/liamawhite/cli-with-i18n/actor/v3action"
+	"github.com/liamawhite/cli-with-i18n/command/v2"
 )
 
 type FakeSpaceActorV3 struct {

@@ -9,8 +9,8 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"code.cloudfoundry.org/cli/cf/models"
 	"code.cloudfoundry.org/gofileutils/fileutils"
+	"github.com/liamawhite/cli-with-i18n/cf/models"
 )
 
 const windowsPathPrefix = `\\?\`

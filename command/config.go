@@ -3,7 +3,7 @@ package command
 import (
 	"time"
 
-	"code.cloudfoundry.org/cli/util/configv3"
+	"github.com/liamawhite/cli-with-i18n/util/configv3"
 )
 
 //go:generate counterfeiter . Config

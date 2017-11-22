@@ -4,9 +4,9 @@ package logsfakes
 import (
 	"sync"
 
-	"code.cloudfoundry.org/cli/cf/api/logs"
 	"github.com/cloudfoundry/noaa/consumer"
 	"github.com/cloudfoundry/sonde-go/events"
+	"github.com/liamawhite/cli-with-i18n/cf/api/logs"
 )
 
 type FakeNoaaConsumer struct {

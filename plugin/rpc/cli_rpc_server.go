@@ -4,14 +4,14 @@ import (
 	"os"
 	"strings"
 
-	"code.cloudfoundry.org/cli/cf/api"
-	"code.cloudfoundry.org/cli/cf/commandregistry"
-	"code.cloudfoundry.org/cli/cf/configuration/coreconfig"
-	"code.cloudfoundry.org/cli/cf/terminal"
-	"code.cloudfoundry.org/cli/plugin"
-	"code.cloudfoundry.org/cli/plugin/models"
-	"code.cloudfoundry.org/cli/version"
 	"github.com/blang/semver"
+	"github.com/liamawhite/cli-with-i18n/cf/api"
+	"github.com/liamawhite/cli-with-i18n/cf/commandregistry"
+	"github.com/liamawhite/cli-with-i18n/cf/configuration/coreconfig"
+	"github.com/liamawhite/cli-with-i18n/cf/terminal"
+	"github.com/liamawhite/cli-with-i18n/plugin"
+	"github.com/liamawhite/cli-with-i18n/plugin/models"
+	"github.com/liamawhite/cli-with-i18n/version"
 
 	"fmt"
 	"net"
@@ -23,7 +23,7 @@ import (
 
 	"sync"
 
-	"code.cloudfoundry.org/cli/cf/trace"
+	"github.com/liamawhite/cli-with-i18n/cf/trace"
 )
 
 var dialTimeout = os.Getenv("CF_DIAL_TIMEOUT")

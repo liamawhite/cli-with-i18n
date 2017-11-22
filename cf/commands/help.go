@@ -4,14 +4,14 @@ import (
 	"errors"
 	"strings"
 
-	"code.cloudfoundry.org/cli/cf/commandregistry"
-	"code.cloudfoundry.org/cli/cf/configuration/pluginconfig"
-	"code.cloudfoundry.org/cli/cf/flags"
-	"code.cloudfoundry.org/cli/cf/help"
-	"code.cloudfoundry.org/cli/cf/requirements"
-	"code.cloudfoundry.org/cli/cf/terminal"
+	"github.com/liamawhite/cli-with-i18n/cf/commandregistry"
+	"github.com/liamawhite/cli-with-i18n/cf/configuration/pluginconfig"
+	"github.com/liamawhite/cli-with-i18n/cf/flags"
+	"github.com/liamawhite/cli-with-i18n/cf/help"
+	"github.com/liamawhite/cli-with-i18n/cf/requirements"
+	"github.com/liamawhite/cli-with-i18n/cf/terminal"
 
-	. "code.cloudfoundry.org/cli/cf/i18n"
+	. "github.com/liamawhite/cli-with-i18n/cf/i18n"
 )
 
 type Help struct {

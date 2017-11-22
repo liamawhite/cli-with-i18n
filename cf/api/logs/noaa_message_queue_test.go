@@ -1,9 +1,9 @@
 package logs_test
 
 import (
-	. "code.cloudfoundry.org/cli/cf/api/logs"
 	"github.com/cloudfoundry/sonde-go/events"
 	"github.com/gogo/protobuf/proto"
+	. "github.com/liamawhite/cli-with-i18n/cf/api/logs"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

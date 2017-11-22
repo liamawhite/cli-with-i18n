@@ -5,7 +5,7 @@ import (
 	"os"
 	"strings"
 
-	"code.cloudfoundry.org/cli/cf/terminal"
+	"github.com/liamawhite/cli-with-i18n/cf/terminal"
 )
 
 const DeprecatedEndpointWarning = "Endpoint deprecated"

@@ -4,10 +4,10 @@ import (
 	"runtime"
 	"time"
 
-	"code.cloudfoundry.org/cli/command/commandfakes"
-	"code.cloudfoundry.org/cli/command/translatableerror"
-	. "code.cloudfoundry.org/cli/command/v2/shared"
-	"code.cloudfoundry.org/cli/util/ui"
+	"github.com/liamawhite/cli-with-i18n/command/commandfakes"
+	"github.com/liamawhite/cli-with-i18n/command/translatableerror"
+	. "github.com/liamawhite/cli-with-i18n/command/v2/shared"
+	"github.com/liamawhite/cli-with-i18n/util/ui"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

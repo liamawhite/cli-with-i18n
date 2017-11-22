@@ -6,18 +6,18 @@ import (
 	"os"
 	"sort"
 
-	"code.cloudfoundry.org/cli/cf/flags"
-	. "code.cloudfoundry.org/cli/cf/i18n"
+	"github.com/liamawhite/cli-with-i18n/cf/flags"
+	. "github.com/liamawhite/cli-with-i18n/cf/i18n"
 
-	"code.cloudfoundry.org/cli/cf/api"
-	"code.cloudfoundry.org/cli/cf/api/appinstances"
-	"code.cloudfoundry.org/cli/cf/api/stacks"
-	"code.cloudfoundry.org/cli/cf/commandregistry"
-	"code.cloudfoundry.org/cli/cf/configuration/coreconfig"
-	"code.cloudfoundry.org/cli/cf/manifest"
-	"code.cloudfoundry.org/cli/cf/models"
-	"code.cloudfoundry.org/cli/cf/requirements"
-	"code.cloudfoundry.org/cli/cf/terminal"
+	"github.com/liamawhite/cli-with-i18n/cf/api"
+	"github.com/liamawhite/cli-with-i18n/cf/api/appinstances"
+	"github.com/liamawhite/cli-with-i18n/cf/api/stacks"
+	"github.com/liamawhite/cli-with-i18n/cf/commandregistry"
+	"github.com/liamawhite/cli-with-i18n/cf/configuration/coreconfig"
+	"github.com/liamawhite/cli-with-i18n/cf/manifest"
+	"github.com/liamawhite/cli-with-i18n/cf/models"
+	"github.com/liamawhite/cli-with-i18n/cf/requirements"
+	"github.com/liamawhite/cli-with-i18n/cf/terminal"
 )
 
 type CreateAppManifest struct {

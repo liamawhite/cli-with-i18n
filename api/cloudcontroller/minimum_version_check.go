@@ -1,8 +1,8 @@
 package cloudcontroller
 
 import (
-	"code.cloudfoundry.org/cli/api/cloudcontroller/ccerror"
 	"github.com/blang/semver"
+	"github.com/liamawhite/cli-with-i18n/api/cloudcontroller/ccerror"
 )
 
 // MinimumAPIVersionCheck compares `current` to `minimum`.  If `current` is

@@ -5,9 +5,9 @@ import (
 	"net/url"
 	"strings"
 
-	"code.cloudfoundry.org/cli/actor/actionerror"
-	"code.cloudfoundry.org/cli/actor/v2action"
-	"code.cloudfoundry.org/cli/types"
+	"github.com/liamawhite/cli-with-i18n/actor/actionerror"
+	"github.com/liamawhite/cli-with-i18n/actor/v2action"
+	"github.com/liamawhite/cli-with-i18n/types"
 	log "github.com/sirupsen/logrus"
 )
 

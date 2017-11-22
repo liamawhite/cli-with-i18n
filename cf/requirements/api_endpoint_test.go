@@ -1,9 +1,9 @@
 package requirements_test
 
 import (
-	"code.cloudfoundry.org/cli/cf/configuration/coreconfig"
-	. "code.cloudfoundry.org/cli/cf/requirements"
-	testconfig "code.cloudfoundry.org/cli/util/testhelpers/configuration"
+	"github.com/liamawhite/cli-with-i18n/cf/configuration/coreconfig"
+	. "github.com/liamawhite/cli-with-i18n/cf/requirements"
+	testconfig "github.com/liamawhite/cli-with-i18n/util/testhelpers/configuration"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

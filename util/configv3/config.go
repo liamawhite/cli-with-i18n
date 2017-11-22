@@ -15,8 +15,8 @@ import (
 
 	"golang.org/x/crypto/ssh/terminal"
 
-	"code.cloudfoundry.org/cli/command/translatableerror"
-	"code.cloudfoundry.org/cli/version"
+	"github.com/liamawhite/cli-with-i18n/command/translatableerror"
+	"github.com/liamawhite/cli-with-i18n/version"
 )
 
 const (

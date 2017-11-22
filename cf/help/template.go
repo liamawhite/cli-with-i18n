@@ -1,6 +1,6 @@
 package help
 
-import . "code.cloudfoundry.org/cli/cf/i18n"
+import . "github.com/liamawhite/cli-with-i18n/cf/i18n"
 
 func GetHelpTemplate() string {
 	return `{{.Title "` + T("NAME:") + `"}}

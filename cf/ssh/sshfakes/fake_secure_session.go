@@ -5,7 +5,7 @@ import (
 	"io"
 	"sync"
 
-	"code.cloudfoundry.org/cli/cf/ssh"
+	"github.com/liamawhite/cli-with-i18n/cf/ssh"
 	"golang.org/x/crypto/ssh"
 )
 

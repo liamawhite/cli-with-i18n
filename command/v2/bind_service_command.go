@@ -4,13 +4,13 @@ import (
 	"fmt"
 	"os"
 
-	"code.cloudfoundry.org/cli/actor/sharedaction"
-	"code.cloudfoundry.org/cli/actor/v2action"
-	"code.cloudfoundry.org/cli/api/cloudcontroller/ccerror"
-	oldCmd "code.cloudfoundry.org/cli/cf/cmd"
-	"code.cloudfoundry.org/cli/command"
-	"code.cloudfoundry.org/cli/command/flag"
-	"code.cloudfoundry.org/cli/command/v2/shared"
+	"github.com/liamawhite/cli-with-i18n/actor/sharedaction"
+	"github.com/liamawhite/cli-with-i18n/actor/v2action"
+	"github.com/liamawhite/cli-with-i18n/api/cloudcontroller/ccerror"
+	oldCmd "github.com/liamawhite/cli-with-i18n/cf/cmd"
+	"github.com/liamawhite/cli-with-i18n/command"
+	"github.com/liamawhite/cli-with-i18n/command/flag"
+	"github.com/liamawhite/cli-with-i18n/command/v2/shared"
 )
 
 //go:generate counterfeiter . BindServiceActor

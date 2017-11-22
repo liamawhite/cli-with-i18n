@@ -4,7 +4,7 @@ package copyapplicationsourcefakes
 import (
 	"sync"
 
-	"code.cloudfoundry.org/cli/cf/api/copyapplicationsource"
+	"github.com/liamawhite/cli-with-i18n/cf/api/copyapplicationsource"
 )
 
 type FakeRepository struct {

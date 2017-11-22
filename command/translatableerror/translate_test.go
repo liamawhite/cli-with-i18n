@@ -5,7 +5,7 @@ import (
 	"errors"
 	"text/template"
 
-	. "code.cloudfoundry.org/cli/command/translatableerror"
+	. "github.com/liamawhite/cli-with-i18n/command/translatableerror"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/ginkgo/extensions/table"

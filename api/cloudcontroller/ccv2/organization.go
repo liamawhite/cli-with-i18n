@@ -3,9 +3,9 @@ package ccv2
 import (
 	"encoding/json"
 
-	"code.cloudfoundry.org/cli/api/cloudcontroller"
-	"code.cloudfoundry.org/cli/api/cloudcontroller/ccerror"
-	"code.cloudfoundry.org/cli/api/cloudcontroller/ccv2/internal"
+	"github.com/liamawhite/cli-with-i18n/api/cloudcontroller"
+	"github.com/liamawhite/cli-with-i18n/api/cloudcontroller/ccerror"
+	"github.com/liamawhite/cli-with-i18n/api/cloudcontroller/ccv2/internal"
 )
 
 // Organization represents a Cloud Controller Organization.
@@ -37,8 +37,8 @@ func (org *Organization) UnmarshalJSON(data []byte) error {
 	return nil
 }
 
-//go:generate go run $GOPATH/src/code.cloudfoundry.org/cli/util/codegen/generate.go Organization codetemplates/delete_async_by_guid.go.template delete_organization.go
-//go:generate go run $GOPATH/src/code.cloudfoundry.org/cli/util/codegen/generate.go Organization codetemplates/delete_async_by_guid_test.go.template delete_organization_test.go
+//go:generate go run $GOPATH/src/github.com/liamawhite/cli-with-i18n/util/codegen/generate.go Organization codetemplates/delete_async_by_guid.go.template delete_organization.go
+//go:generate go run $GOPATH/src/github.com/liamawhite/cli-with-i18n/util/codegen/generate.go Organization codetemplates/delete_async_by_guid_test.go.template delete_organization_test.go
 
 // GetOrganization returns an Organization associated with the provided guid.
 func (client *Client) GetOrganization(guid string) (Organization, Warnings, error) {

@@ -4,7 +4,7 @@ package userprintfakes
 import (
 	"sync"
 
-	"code.cloudfoundry.org/cli/cf/actors/userprint"
+	"github.com/liamawhite/cli-with-i18n/cf/actors/userprint"
 )
 
 type FakeUserPrinter struct {

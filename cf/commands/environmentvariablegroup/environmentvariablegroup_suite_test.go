@@ -1,8 +1,8 @@
 package environmentvariablegroup_test
 
 import (
-	"code.cloudfoundry.org/cli/cf/i18n"
-	"code.cloudfoundry.org/cli/util/testhelpers/configuration"
+	"github.com/liamawhite/cli-with-i18n/cf/i18n"
+	"github.com/liamawhite/cli-with-i18n/util/testhelpers/configuration"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 

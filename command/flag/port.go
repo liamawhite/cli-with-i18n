@@ -1,8 +1,8 @@
 package flag
 
 import (
-	"code.cloudfoundry.org/cli/types"
 	flags "github.com/jessevdk/go-flags"
+	"github.com/liamawhite/cli-with-i18n/types"
 )
 
 type Port struct {

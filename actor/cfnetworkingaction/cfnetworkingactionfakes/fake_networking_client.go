@@ -5,7 +5,7 @@ import (
 	"sync"
 
 	"code.cloudfoundry.org/cfnetworking-cli-api/cfnetworking/cfnetv1"
-	"code.cloudfoundry.org/cli/actor/cfnetworkingaction"
+	"github.com/liamawhite/cli-with-i18n/actor/cfnetworkingaction"
 )
 
 type FakeNetworkingClient struct {

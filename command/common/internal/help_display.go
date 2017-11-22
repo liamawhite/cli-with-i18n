@@ -5,9 +5,9 @@ import (
 	"sort"
 	"strings"
 
-	"code.cloudfoundry.org/cli/actor/sharedaction"
-	"code.cloudfoundry.org/cli/util/configv3"
-	"code.cloudfoundry.org/cli/util/sorting"
+	"github.com/liamawhite/cli-with-i18n/actor/sharedaction"
+	"github.com/liamawhite/cli-with-i18n/util/configv3"
+	"github.com/liamawhite/cli-with-i18n/util/sorting"
 )
 
 type HelpCategory struct {

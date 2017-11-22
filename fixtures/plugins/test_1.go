@@ -12,7 +12,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"code.cloudfoundry.org/cli/plugin"
+	"github.com/liamawhite/cli-with-i18n/plugin"
 )
 
 type Test1 struct {

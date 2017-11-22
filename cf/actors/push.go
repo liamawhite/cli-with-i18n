@@ -7,12 +7,12 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"code.cloudfoundry.org/cli/cf/api/applicationbits"
-	"code.cloudfoundry.org/cli/cf/api/resources"
-	"code.cloudfoundry.org/cli/cf/appfiles"
-	. "code.cloudfoundry.org/cli/cf/i18n"
-	"code.cloudfoundry.org/cli/cf/models"
 	"code.cloudfoundry.org/gofileutils/fileutils"
+	"github.com/liamawhite/cli-with-i18n/cf/api/applicationbits"
+	"github.com/liamawhite/cli-with-i18n/cf/api/resources"
+	"github.com/liamawhite/cli-with-i18n/cf/appfiles"
+	. "github.com/liamawhite/cli-with-i18n/cf/i18n"
+	"github.com/liamawhite/cli-with-i18n/cf/models"
 )
 
 const windowsPathPrefix = `\\?\`

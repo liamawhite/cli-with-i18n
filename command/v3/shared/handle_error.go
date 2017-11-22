@@ -3,10 +3,10 @@ package shared
 import (
 	"strings"
 
-	"code.cloudfoundry.org/cli/actor/sharedaction"
-	"code.cloudfoundry.org/cli/actor/v3action"
-	"code.cloudfoundry.org/cli/api/cloudcontroller/ccerror"
-	"code.cloudfoundry.org/cli/command/translatableerror"
+	"github.com/liamawhite/cli-with-i18n/actor/sharedaction"
+	"github.com/liamawhite/cli-with-i18n/actor/v3action"
+	"github.com/liamawhite/cli-with-i18n/api/cloudcontroller/ccerror"
+	"github.com/liamawhite/cli-with-i18n/command/translatableerror"
 )
 
 func HandleError(err error) error {

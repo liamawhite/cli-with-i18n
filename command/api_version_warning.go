@@ -1,7 +1,7 @@
 package command
 
 import (
-	"code.cloudfoundry.org/cli/command/translatableerror"
+	"github.com/liamawhite/cli-with-i18n/command/translatableerror"
 )
 
 func WarnAPIVersionCheck(config Config, ui UI) error {

@@ -1,6 +1,6 @@
 package ccv2
 
-import "code.cloudfoundry.org/cli/api/cloudcontroller"
+import "github.com/liamawhite/cli-with-i18n/api/cloudcontroller"
 
 //go:generate counterfeiter . ConnectionWrapper
 

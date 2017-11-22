@@ -7,11 +7,11 @@ import (
 	"net/http"
 	"net/url"
 
-	"code.cloudfoundry.org/cli/api/cloudcontroller"
-	"code.cloudfoundry.org/cli/api/cloudcontroller/ccerror"
-	"code.cloudfoundry.org/cli/api/cloudcontroller/ccv2/internal"
-	"code.cloudfoundry.org/cli/api/cloudcontroller/ccversion"
-	"code.cloudfoundry.org/cli/types"
+	"github.com/liamawhite/cli-with-i18n/api/cloudcontroller"
+	"github.com/liamawhite/cli-with-i18n/api/cloudcontroller/ccerror"
+	"github.com/liamawhite/cli-with-i18n/api/cloudcontroller/ccv2/internal"
+	"github.com/liamawhite/cli-with-i18n/api/cloudcontroller/ccversion"
+	"github.com/liamawhite/cli-with-i18n/types"
 )
 
 // Route represents a Cloud Controller Route.

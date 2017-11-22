@@ -7,15 +7,15 @@ import (
 	"reflect"
 	"strings"
 
-	"code.cloudfoundry.org/cli/cf/cmd"
-	"code.cloudfoundry.org/cli/command"
-	"code.cloudfoundry.org/cli/command/common"
-	"code.cloudfoundry.org/cli/command/translatableerror"
-	"code.cloudfoundry.org/cli/command/v2"
-	"code.cloudfoundry.org/cli/util/configv3"
-	"code.cloudfoundry.org/cli/util/panichandler"
-	"code.cloudfoundry.org/cli/util/ui"
 	"github.com/jessevdk/go-flags"
+	"github.com/liamawhite/cli-with-i18n/cf/cmd"
+	"github.com/liamawhite/cli-with-i18n/command"
+	"github.com/liamawhite/cli-with-i18n/command/common"
+	"github.com/liamawhite/cli-with-i18n/command/translatableerror"
+	"github.com/liamawhite/cli-with-i18n/command/v2"
+	"github.com/liamawhite/cli-with-i18n/util/configv3"
+	"github.com/liamawhite/cli-with-i18n/util/panichandler"
+	"github.com/liamawhite/cli-with-i18n/util/ui"
 	log "github.com/sirupsen/logrus"
 )
 

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"code.cloudfoundry.org/cli/cf/terminal"
+	"github.com/liamawhite/cli-with-i18n/cf/terminal"
 	"github.com/onsi/gomega"
 )
 

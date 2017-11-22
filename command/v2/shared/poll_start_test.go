@@ -4,13 +4,13 @@ import (
 	"errors"
 	"time"
 
-	"code.cloudfoundry.org/cli/actor/actionerror"
-	"code.cloudfoundry.org/cli/actor/v2action"
-	"code.cloudfoundry.org/cli/command/commandfakes"
-	"code.cloudfoundry.org/cli/command/translatableerror"
-	. "code.cloudfoundry.org/cli/command/v2/shared"
+	"github.com/liamawhite/cli-with-i18n/actor/actionerror"
+	"github.com/liamawhite/cli-with-i18n/actor/v2action"
+	"github.com/liamawhite/cli-with-i18n/command/commandfakes"
+	"github.com/liamawhite/cli-with-i18n/command/translatableerror"
+	. "github.com/liamawhite/cli-with-i18n/command/v2/shared"
 
-	"code.cloudfoundry.org/cli/util/ui"
+	"github.com/liamawhite/cli-with-i18n/util/ui"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/ginkgo/extensions/table"

@@ -4,8 +4,8 @@ package requirementsfakes
 import (
 	"sync"
 
-	"code.cloudfoundry.org/cli/cf/models"
-	"code.cloudfoundry.org/cli/cf/requirements"
+	"github.com/liamawhite/cli-with-i18n/cf/models"
+	"github.com/liamawhite/cli-with-i18n/cf/requirements"
 )
 
 type FakeOrganizationRequirement struct {

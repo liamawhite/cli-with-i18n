@@ -9,10 +9,10 @@ import (
 	"net/url"
 	"time"
 
-	"code.cloudfoundry.org/cli/api/plugin"
-	"code.cloudfoundry.org/cli/api/plugin/pluginfakes"
-	. "code.cloudfoundry.org/cli/api/plugin/wrapper"
-	"code.cloudfoundry.org/cli/api/plugin/wrapper/wrapperfakes"
+	"github.com/liamawhite/cli-with-i18n/api/plugin"
+	"github.com/liamawhite/cli-with-i18n/api/plugin/pluginfakes"
+	. "github.com/liamawhite/cli-with-i18n/api/plugin/wrapper"
+	"github.com/liamawhite/cli-with-i18n/api/plugin/wrapper/wrapperfakes"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

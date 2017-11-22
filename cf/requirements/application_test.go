@@ -1,10 +1,10 @@
 package requirements_test
 
 import (
-	"code.cloudfoundry.org/cli/cf/api/applications/applicationsfakes"
-	"code.cloudfoundry.org/cli/cf/errors"
-	"code.cloudfoundry.org/cli/cf/models"
-	. "code.cloudfoundry.org/cli/cf/requirements"
+	"github.com/liamawhite/cli-with-i18n/cf/api/applications/applicationsfakes"
+	"github.com/liamawhite/cli-with-i18n/cf/errors"
+	"github.com/liamawhite/cli-with-i18n/cf/models"
+	. "github.com/liamawhite/cli-with-i18n/cf/requirements"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

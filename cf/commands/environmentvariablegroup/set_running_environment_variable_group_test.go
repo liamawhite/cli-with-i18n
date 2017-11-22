@@ -1,16 +1,16 @@
 package environmentvariablegroup_test
 
 import (
-	"code.cloudfoundry.org/cli/cf/api/environmentvariablegroups/environmentvariablegroupsfakes"
-	"code.cloudfoundry.org/cli/cf/commandregistry"
-	"code.cloudfoundry.org/cli/cf/configuration/coreconfig"
-	cf_errors "code.cloudfoundry.org/cli/cf/errors"
-	"code.cloudfoundry.org/cli/cf/requirements"
-	"code.cloudfoundry.org/cli/cf/requirements/requirementsfakes"
-	testcmd "code.cloudfoundry.org/cli/util/testhelpers/commands"
-	testconfig "code.cloudfoundry.org/cli/util/testhelpers/configuration"
-	. "code.cloudfoundry.org/cli/util/testhelpers/matchers"
-	testterm "code.cloudfoundry.org/cli/util/testhelpers/terminal"
+	"github.com/liamawhite/cli-with-i18n/cf/api/environmentvariablegroups/environmentvariablegroupsfakes"
+	"github.com/liamawhite/cli-with-i18n/cf/commandregistry"
+	"github.com/liamawhite/cli-with-i18n/cf/configuration/coreconfig"
+	cf_errors "github.com/liamawhite/cli-with-i18n/cf/errors"
+	"github.com/liamawhite/cli-with-i18n/cf/requirements"
+	"github.com/liamawhite/cli-with-i18n/cf/requirements/requirementsfakes"
+	testcmd "github.com/liamawhite/cli-with-i18n/util/testhelpers/commands"
+	testconfig "github.com/liamawhite/cli-with-i18n/util/testhelpers/configuration"
+	. "github.com/liamawhite/cli-with-i18n/util/testhelpers/matchers"
+	testterm "github.com/liamawhite/cli-with-i18n/util/testhelpers/terminal"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

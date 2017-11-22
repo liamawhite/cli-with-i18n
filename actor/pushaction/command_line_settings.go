@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"code.cloudfoundry.org/cli/types"
-	"code.cloudfoundry.org/cli/util/manifest"
+	"github.com/liamawhite/cli-with-i18n/types"
+	"github.com/liamawhite/cli-with-i18n/util/manifest"
 )
 
 type CommandLineSettings struct {

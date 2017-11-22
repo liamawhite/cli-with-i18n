@@ -7,10 +7,10 @@ import (
 	"sort"
 	"strings"
 
-	"code.cloudfoundry.org/cli/api/plugin"
-	"code.cloudfoundry.org/cli/util/configv3"
-	"code.cloudfoundry.org/cli/util/generic"
 	"code.cloudfoundry.org/gofileutils/fileutils"
+	"github.com/liamawhite/cli-with-i18n/api/plugin"
+	"github.com/liamawhite/cli-with-i18n/util/configv3"
+	"github.com/liamawhite/cli-with-i18n/util/generic"
 )
 
 //go:generate counterfeiter . PluginMetadata

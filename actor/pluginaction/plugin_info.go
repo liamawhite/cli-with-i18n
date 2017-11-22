@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"runtime"
 
-	"code.cloudfoundry.org/cli/util/configv3"
-	"code.cloudfoundry.org/cli/util/generic"
+	"github.com/liamawhite/cli-with-i18n/util/configv3"
+	"github.com/liamawhite/cli-with-i18n/util/generic"
 )
 
 type PluginInfo struct {

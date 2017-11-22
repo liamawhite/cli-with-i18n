@@ -4,8 +4,8 @@ package v2actionfakes
 import (
 	"sync"
 
-	"code.cloudfoundry.org/cli/actor/v2action"
-	"code.cloudfoundry.org/cli/api/cloudcontroller/ccv2"
+	"github.com/liamawhite/cli-with-i18n/actor/v2action"
+	"github.com/liamawhite/cli-with-i18n/api/cloudcontroller/ccv2"
 )
 
 type FakeCloudControllerClient struct {

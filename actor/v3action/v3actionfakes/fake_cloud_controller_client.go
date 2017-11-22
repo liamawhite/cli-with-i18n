@@ -5,8 +5,8 @@ import (
 	"net/url"
 	"sync"
 
-	"code.cloudfoundry.org/cli/actor/v3action"
-	"code.cloudfoundry.org/cli/api/cloudcontroller/ccv3"
+	"github.com/liamawhite/cli-with-i18n/actor/v3action"
+	"github.com/liamawhite/cli-with-i18n/api/cloudcontroller/ccv3"
 )
 
 type FakeCloudControllerClient struct {

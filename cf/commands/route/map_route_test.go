@@ -3,24 +3,24 @@ package route_test
 import (
 	"errors"
 
-	"code.cloudfoundry.org/cli/cf/commandregistry"
-	"code.cloudfoundry.org/cli/cf/commands/route"
-	"code.cloudfoundry.org/cli/cf/commands/route/routefakes"
-	"code.cloudfoundry.org/cli/cf/configuration/coreconfig"
-	"code.cloudfoundry.org/cli/cf/flags"
-	"code.cloudfoundry.org/cli/cf/models"
-	"code.cloudfoundry.org/cli/cf/requirements"
-	"code.cloudfoundry.org/cli/cf/requirements/requirementsfakes"
 	"github.com/blang/semver"
+	"github.com/liamawhite/cli-with-i18n/cf/commandregistry"
+	"github.com/liamawhite/cli-with-i18n/cf/commands/route"
+	"github.com/liamawhite/cli-with-i18n/cf/commands/route/routefakes"
+	"github.com/liamawhite/cli-with-i18n/cf/configuration/coreconfig"
+	"github.com/liamawhite/cli-with-i18n/cf/flags"
+	"github.com/liamawhite/cli-with-i18n/cf/models"
+	"github.com/liamawhite/cli-with-i18n/cf/requirements"
+	"github.com/liamawhite/cli-with-i18n/cf/requirements/requirementsfakes"
 
-	"code.cloudfoundry.org/cli/cf/api/apifakes"
+	"github.com/liamawhite/cli-with-i18n/cf/api/apifakes"
 
-	testconfig "code.cloudfoundry.org/cli/util/testhelpers/configuration"
-	testterm "code.cloudfoundry.org/cli/util/testhelpers/terminal"
+	testconfig "github.com/liamawhite/cli-with-i18n/util/testhelpers/configuration"
+	testterm "github.com/liamawhite/cli-with-i18n/util/testhelpers/terminal"
 
 	"strings"
 
-	. "code.cloudfoundry.org/cli/util/testhelpers/matchers"
+	. "github.com/liamawhite/cli-with-i18n/util/testhelpers/matchers"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

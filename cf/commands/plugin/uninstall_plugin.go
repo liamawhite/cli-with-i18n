@@ -8,13 +8,13 @@ import (
 	"os/exec"
 	"time"
 
-	"code.cloudfoundry.org/cli/cf/commandregistry"
-	"code.cloudfoundry.org/cli/cf/configuration/pluginconfig"
-	"code.cloudfoundry.org/cli/cf/flags"
-	. "code.cloudfoundry.org/cli/cf/i18n"
-	"code.cloudfoundry.org/cli/cf/requirements"
-	"code.cloudfoundry.org/cli/cf/terminal"
-	rpcService "code.cloudfoundry.org/cli/plugin/rpc"
+	"github.com/liamawhite/cli-with-i18n/cf/commandregistry"
+	"github.com/liamawhite/cli-with-i18n/cf/configuration/pluginconfig"
+	"github.com/liamawhite/cli-with-i18n/cf/flags"
+	. "github.com/liamawhite/cli-with-i18n/cf/i18n"
+	"github.com/liamawhite/cli-with-i18n/cf/requirements"
+	"github.com/liamawhite/cli-with-i18n/cf/terminal"
+	rpcService "github.com/liamawhite/cli-with-i18n/plugin/rpc"
 )
 
 type PluginUninstall struct {

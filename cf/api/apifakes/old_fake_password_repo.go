@@ -1,6 +1,6 @@
 package apifakes
 
-import "code.cloudfoundry.org/cli/cf/errors"
+import "github.com/liamawhite/cli-with-i18n/cf/errors"
 
 type OldFakePasswordRepo struct {
 	Score          string

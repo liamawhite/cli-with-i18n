@@ -1,7 +1,7 @@
 package version_test
 
 import (
-	"code.cloudfoundry.org/cli/version"
+	"github.com/liamawhite/cli-with-i18n/version"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

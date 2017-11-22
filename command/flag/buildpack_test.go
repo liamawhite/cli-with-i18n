@@ -1,7 +1,7 @@
 package flag_test
 
 import (
-	. "code.cloudfoundry.org/cli/command/flag"
+	. "github.com/liamawhite/cli-with-i18n/command/flag"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

@@ -4,12 +4,12 @@ import (
 	"errors"
 	"time"
 
-	"code.cloudfoundry.org/cli/actor/actionerror"
-	. "code.cloudfoundry.org/cli/actor/v2action"
-	"code.cloudfoundry.org/cli/actor/v2action/v2actionfakes"
-	"code.cloudfoundry.org/cli/api/cloudcontroller/ccerror"
-	"code.cloudfoundry.org/cli/api/cloudcontroller/ccv2"
-	"code.cloudfoundry.org/cli/types"
+	"github.com/liamawhite/cli-with-i18n/actor/actionerror"
+	. "github.com/liamawhite/cli-with-i18n/actor/v2action"
+	"github.com/liamawhite/cli-with-i18n/actor/v2action/v2actionfakes"
+	"github.com/liamawhite/cli-with-i18n/api/cloudcontroller/ccerror"
+	"github.com/liamawhite/cli-with-i18n/api/cloudcontroller/ccv2"
+	"github.com/liamawhite/cli-with-i18n/types"
 
 	"github.com/cloudfoundry/sonde-go/events"
 	. "github.com/onsi/ginkgo"

@@ -5,8 +5,8 @@ import (
 	"io"
 	"sync"
 
-	"code.cloudfoundry.org/cli/cf/manifest"
-	"code.cloudfoundry.org/cli/cf/models"
+	"github.com/liamawhite/cli-with-i18n/cf/manifest"
+	"github.com/liamawhite/cli-with-i18n/cf/models"
 )
 
 type FakeApp struct {

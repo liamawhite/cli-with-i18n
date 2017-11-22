@@ -8,10 +8,10 @@ import (
 	"net/url"
 	"time"
 
-	"code.cloudfoundry.org/cli/api/cloudcontroller"
-	"code.cloudfoundry.org/cli/api/cloudcontroller/cloudcontrollerfakes"
-	. "code.cloudfoundry.org/cli/api/cloudcontroller/wrapper"
-	"code.cloudfoundry.org/cli/api/cloudcontroller/wrapper/wrapperfakes"
+	"github.com/liamawhite/cli-with-i18n/api/cloudcontroller"
+	"github.com/liamawhite/cli-with-i18n/api/cloudcontroller/cloudcontrollerfakes"
+	. "github.com/liamawhite/cli-with-i18n/api/cloudcontroller/wrapper"
+	"github.com/liamawhite/cli-with-i18n/api/cloudcontroller/wrapper/wrapperfakes"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

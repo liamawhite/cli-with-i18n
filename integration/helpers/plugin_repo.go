@@ -10,8 +10,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"code.cloudfoundry.org/cli/util"
-	"code.cloudfoundry.org/cli/util/generic"
+	"github.com/liamawhite/cli-with-i18n/util"
+	"github.com/liamawhite/cli-with-i18n/util/generic"
 
 	. "github.com/onsi/gomega"
 	. "github.com/onsi/gomega/ghttp"

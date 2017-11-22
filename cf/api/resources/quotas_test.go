@@ -1,10 +1,10 @@
 package resources_test
 
 import (
-	. "code.cloudfoundry.org/cli/cf/api/resources"
+	. "github.com/liamawhite/cli-with-i18n/cf/api/resources"
 
-	"code.cloudfoundry.org/cli/cf/models"
 	"encoding/json"
+	"github.com/liamawhite/cli-with-i18n/cf/models"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

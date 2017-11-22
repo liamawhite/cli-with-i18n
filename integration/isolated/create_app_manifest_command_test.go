@@ -7,8 +7,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"code.cloudfoundry.org/cli/integration/helpers"
-	"code.cloudfoundry.org/cli/util/manifest"
+	"github.com/liamawhite/cli-with-i18n/integration/helpers"
+	"github.com/liamawhite/cli-with-i18n/util/manifest"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	. "github.com/onsi/gomega/gbytes"

@@ -1,7 +1,7 @@
 package ui_test
 
 import (
-	. "code.cloudfoundry.org/cli/util/ui"
+	. "github.com/liamawhite/cli-with-i18n/util/ui"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

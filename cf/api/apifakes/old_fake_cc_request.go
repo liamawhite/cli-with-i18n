@@ -3,7 +3,7 @@ package apifakes
 import (
 	"net/http"
 
-	testnet "code.cloudfoundry.org/cli/util/testhelpers/net"
+	testnet "github.com/liamawhite/cli-with-i18n/util/testhelpers/net"
 )
 
 func NewCloudControllerTestRequest(request testnet.TestRequest) testnet.TestRequest {

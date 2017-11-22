@@ -1,9 +1,9 @@
 package command
 
 import (
-	"code.cloudfoundry.org/cli/command/translatableerror"
-	"code.cloudfoundry.org/cli/version"
 	"github.com/blang/semver"
+	"github.com/liamawhite/cli-with-i18n/command/translatableerror"
+	"github.com/liamawhite/cli-with-i18n/version"
 )
 
 func MinimumAPIVersionCheck(current string, minimum string, customCommand ...string) error {

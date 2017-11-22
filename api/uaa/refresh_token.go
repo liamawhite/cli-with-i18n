@@ -6,7 +6,7 @@ import (
 	"net/url"
 	"strings"
 
-	"code.cloudfoundry.org/cli/api/uaa/internal"
+	"github.com/liamawhite/cli-with-i18n/api/uaa/internal"
 )
 
 // RefreshedTokens represents the UAA refresh token response.

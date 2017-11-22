@@ -6,7 +6,7 @@ import (
 	"os"
 	"path"
 
-	"code.cloudfoundry.org/cli/util/downloader"
+	"github.com/liamawhite/cli-with-i18n/util/downloader"
 
 	"github.com/onsi/gomega/ghttp"
 

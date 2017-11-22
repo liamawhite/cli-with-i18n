@@ -3,8 +3,8 @@ package v3action
 import (
 	"fmt"
 
-	"code.cloudfoundry.org/cli/api/cloudcontroller/ccv3"
-	"code.cloudfoundry.org/cli/types"
+	"github.com/liamawhite/cli-with-i18n/api/cloudcontroller/ccv3"
+	"github.com/liamawhite/cli-with-i18n/types"
 )
 
 // EnvironmentVariableNotSetError is returned when trying to unset env variable

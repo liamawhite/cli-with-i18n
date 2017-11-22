@@ -12,8 +12,8 @@ import (
 	"runtime"
 	"strings"
 
-	. "code.cloudfoundry.org/cli/cf/appfiles"
 	"code.cloudfoundry.org/gofileutils/fileutils"
+	. "github.com/liamawhite/cli-with-i18n/cf/appfiles"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

@@ -1,12 +1,12 @@
 package actors_test
 
 import (
-	"code.cloudfoundry.org/cli/cf/actors"
-	"code.cloudfoundry.org/cli/cf/actors/brokerbuilder/brokerbuilderfakes"
-	"code.cloudfoundry.org/cli/cf/actors/servicebuilder/servicebuilderfakes"
-	"code.cloudfoundry.org/cli/cf/api/organizations/organizationsfakes"
-	"code.cloudfoundry.org/cli/cf/errors"
-	"code.cloudfoundry.org/cli/cf/models"
+	"github.com/liamawhite/cli-with-i18n/cf/actors"
+	"github.com/liamawhite/cli-with-i18n/cf/actors/brokerbuilder/brokerbuilderfakes"
+	"github.com/liamawhite/cli-with-i18n/cf/actors/servicebuilder/servicebuilderfakes"
+	"github.com/liamawhite/cli-with-i18n/cf/api/organizations/organizationsfakes"
+	"github.com/liamawhite/cli-with-i18n/cf/errors"
+	"github.com/liamawhite/cli-with-i18n/cf/models"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

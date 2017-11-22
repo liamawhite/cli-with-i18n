@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"net/url"
 
-	"code.cloudfoundry.org/cli/api/uaa/internal"
+	"github.com/liamawhite/cli-with-i18n/api/uaa/internal"
 )
 
 // RequestOptions contains all the options to create an HTTP Request.

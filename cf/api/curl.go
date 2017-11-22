@@ -9,10 +9,10 @@ import (
 	"net/textproto"
 	"strings"
 
-	"code.cloudfoundry.org/cli/cf/configuration/coreconfig"
-	"code.cloudfoundry.org/cli/cf/errors"
-	. "code.cloudfoundry.org/cli/cf/i18n"
-	"code.cloudfoundry.org/cli/cf/net"
+	"github.com/liamawhite/cli-with-i18n/cf/configuration/coreconfig"
+	"github.com/liamawhite/cli-with-i18n/cf/errors"
+	. "github.com/liamawhite/cli-with-i18n/cf/i18n"
+	"github.com/liamawhite/cli-with-i18n/cf/net"
 )
 
 //go:generate counterfeiter . CurlRepository

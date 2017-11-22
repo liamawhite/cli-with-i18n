@@ -4,9 +4,9 @@ package v2fakes
 import (
 	"sync"
 
-	"code.cloudfoundry.org/cli/actor/v2action"
-	"code.cloudfoundry.org/cli/api/cloudcontroller/ccv2"
-	"code.cloudfoundry.org/cli/command/v2"
+	"github.com/liamawhite/cli-with-i18n/actor/v2action"
+	"github.com/liamawhite/cli-with-i18n/api/cloudcontroller/ccv2"
+	"github.com/liamawhite/cli-with-i18n/command/v2"
 )
 
 type FakeUnbindSecurityGroupActor struct {

@@ -5,8 +5,8 @@ import (
 	"sync"
 	"time"
 
-	"code.cloudfoundry.org/cli/command"
-	"code.cloudfoundry.org/cli/util/configv3"
+	"github.com/liamawhite/cli-with-i18n/command"
+	"github.com/liamawhite/cli-with-i18n/util/configv3"
 )
 
 type FakeConfig struct {

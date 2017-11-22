@@ -1,7 +1,7 @@
 package appfiles_test
 
 import (
-	. "code.cloudfoundry.org/cli/cf/appfiles"
+	. "github.com/liamawhite/cli-with-i18n/cf/appfiles"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

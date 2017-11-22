@@ -1,11 +1,11 @@
 package requirements
 
 import (
-	"code.cloudfoundry.org/cli/cf"
-	"code.cloudfoundry.org/cli/cf/api"
-	"code.cloudfoundry.org/cli/cf/configuration/coreconfig"
-	. "code.cloudfoundry.org/cli/cf/i18n"
 	"github.com/blang/semver"
+	"github.com/liamawhite/cli-with-i18n/cf"
+	"github.com/liamawhite/cli-with-i18n/cf/api"
+	"github.com/liamawhite/cli-with-i18n/cf/configuration/coreconfig"
+	. "github.com/liamawhite/cli-with-i18n/cf/i18n"
 )
 
 //go:generate counterfeiter . Factory

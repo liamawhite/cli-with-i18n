@@ -4,10 +4,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"code.cloudfoundry.org/cli/actor/sharedaction"
-	"code.cloudfoundry.org/cli/actor/v2action"
-	"code.cloudfoundry.org/cli/api/cloudcontroller/ccv2"
-	"code.cloudfoundry.org/cli/util/manifest"
+	"github.com/liamawhite/cli-with-i18n/actor/sharedaction"
+	"github.com/liamawhite/cli-with-i18n/actor/v2action"
+	"github.com/liamawhite/cli-with-i18n/api/cloudcontroller/ccv2"
+	"github.com/liamawhite/cli-with-i18n/util/manifest"
 	log "github.com/sirupsen/logrus"
 )
 

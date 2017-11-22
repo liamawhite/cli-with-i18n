@@ -1,7 +1,7 @@
 package shared
 
 import (
-	"code.cloudfoundry.org/cli/command"
+	"github.com/liamawhite/cli-with-i18n/command"
 )
 
 type PackageDisplayer struct {

@@ -1,24 +1,24 @@
 package quota_test
 
 import (
-	"code.cloudfoundry.org/cli/cf/api/quotas/quotasfakes"
-	"code.cloudfoundry.org/cli/cf/api/resources"
-	"code.cloudfoundry.org/cli/cf/commandregistry"
-	cmdsQuota "code.cloudfoundry.org/cli/cf/commands/quota"
-	"code.cloudfoundry.org/cli/cf/configuration/coreconfig"
-	"code.cloudfoundry.org/cli/cf/errors"
-	testcmd "code.cloudfoundry.org/cli/util/testhelpers/commands"
-	testconfig "code.cloudfoundry.org/cli/util/testhelpers/configuration"
-	. "code.cloudfoundry.org/cli/util/testhelpers/matchers"
-	testterm "code.cloudfoundry.org/cli/util/testhelpers/terminal"
+	"github.com/liamawhite/cli-with-i18n/cf/api/quotas/quotasfakes"
+	"github.com/liamawhite/cli-with-i18n/cf/api/resources"
+	"github.com/liamawhite/cli-with-i18n/cf/commandregistry"
+	cmdsQuota "github.com/liamawhite/cli-with-i18n/cf/commands/quota"
+	"github.com/liamawhite/cli-with-i18n/cf/configuration/coreconfig"
+	"github.com/liamawhite/cli-with-i18n/cf/errors"
+	testcmd "github.com/liamawhite/cli-with-i18n/util/testhelpers/commands"
+	testconfig "github.com/liamawhite/cli-with-i18n/util/testhelpers/configuration"
+	. "github.com/liamawhite/cli-with-i18n/util/testhelpers/matchers"
+	testterm "github.com/liamawhite/cli-with-i18n/util/testhelpers/terminal"
 
 	"encoding/json"
 
-	"code.cloudfoundry.org/cli/cf/flags"
-	"code.cloudfoundry.org/cli/cf/models"
-	"code.cloudfoundry.org/cli/cf/requirements"
-	"code.cloudfoundry.org/cli/cf/requirements/requirementsfakes"
 	"github.com/blang/semver"
+	"github.com/liamawhite/cli-with-i18n/cf/flags"
+	"github.com/liamawhite/cli-with-i18n/cf/models"
+	"github.com/liamawhite/cli-with-i18n/cf/requirements"
+	"github.com/liamawhite/cli-with-i18n/cf/requirements/requirementsfakes"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

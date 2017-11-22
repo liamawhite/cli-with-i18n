@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"code.cloudfoundry.org/cli/util/manifest"
+	"github.com/liamawhite/cli-with-i18n/util/manifest"
 	log "github.com/sirupsen/logrus"
 )
 

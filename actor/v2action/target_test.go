@@ -1,8 +1,8 @@
 package v2action_test
 
 import (
-	. "code.cloudfoundry.org/cli/actor/v2action"
-	"code.cloudfoundry.org/cli/actor/v2action/v2actionfakes"
+	. "github.com/liamawhite/cli-with-i18n/actor/v2action"
+	"github.com/liamawhite/cli-with-i18n/actor/v2action/v2actionfakes"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

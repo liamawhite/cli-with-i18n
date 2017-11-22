@@ -3,7 +3,7 @@ package pushaction
 import (
 	"io"
 
-	"code.cloudfoundry.org/cli/actor/v2action"
+	"github.com/liamawhite/cli-with-i18n/actor/v2action"
 )
 
 //go:generate counterfeiter . V2Actor

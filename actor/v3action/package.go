@@ -6,8 +6,8 @@ import (
 	"os"
 	"time"
 
-	"code.cloudfoundry.org/cli/actor/sharedaction"
-	"code.cloudfoundry.org/cli/api/cloudcontroller/ccv3"
+	"github.com/liamawhite/cli-with-i18n/actor/sharedaction"
+	"github.com/liamawhite/cli-with-i18n/api/cloudcontroller/ccv3"
 )
 
 const (

@@ -3,7 +3,7 @@ package v2action
 import (
 	"fmt"
 
-	"code.cloudfoundry.org/cli/api/cloudcontroller/ccv2"
+	"github.com/liamawhite/cli-with-i18n/api/cloudcontroller/ccv2"
 )
 
 // ServiceBinding represents the link between a service instance and an

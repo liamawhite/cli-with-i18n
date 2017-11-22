@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"code.cloudfoundry.org/cli/api/cloudcontroller"
-	"code.cloudfoundry.org/cli/api/cloudcontroller/ccerror"
+	"github.com/liamawhite/cli-with-i18n/api/cloudcontroller"
+	"github.com/liamawhite/cli-with-i18n/api/cloudcontroller/ccerror"
 )
 
 // errorWrapper is the wrapper that converts responses with 4xx and 5xx status

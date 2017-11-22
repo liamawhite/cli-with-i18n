@@ -8,12 +8,12 @@ import (
 	"strconv"
 	"strings"
 
-	. "code.cloudfoundry.org/cli/cf/i18n"
+	. "github.com/liamawhite/cli-with-i18n/cf/i18n"
 
-	"code.cloudfoundry.org/cli/cf/formatters"
-	"code.cloudfoundry.org/cli/cf/models"
-	"code.cloudfoundry.org/cli/util/generic"
-	"code.cloudfoundry.org/cli/util/words/generator"
+	"github.com/liamawhite/cli-with-i18n/cf/formatters"
+	"github.com/liamawhite/cli-with-i18n/cf/models"
+	"github.com/liamawhite/cli-with-i18n/util/generic"
+	"github.com/liamawhite/cli-with-i18n/util/words/generator"
 )
 
 type Manifest struct {

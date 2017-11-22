@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"code.cloudfoundry.org/cli/api/cloudcontroller"
-	"code.cloudfoundry.org/cli/api/cloudcontroller/ccerror"
+	"github.com/liamawhite/cli-with-i18n/api/cloudcontroller"
+	"github.com/liamawhite/cli-with-i18n/api/cloudcontroller/ccerror"
 )
 
 // APIInfo represents a GET response from the '/' endpoint of the cloud

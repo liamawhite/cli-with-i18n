@@ -4,10 +4,10 @@ import (
 	"errors"
 	"strings"
 
-	. "code.cloudfoundry.org/cli/actor/pluginaction"
-	"code.cloudfoundry.org/cli/actor/pluginaction/pluginactionfakes"
-	"code.cloudfoundry.org/cli/api/plugin"
-	"code.cloudfoundry.org/cli/util/configv3"
+	. "github.com/liamawhite/cli-with-i18n/actor/pluginaction"
+	"github.com/liamawhite/cli-with-i18n/actor/pluginaction/pluginactionfakes"
+	"github.com/liamawhite/cli-with-i18n/api/plugin"
+	"github.com/liamawhite/cli-with-i18n/util/configv3"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

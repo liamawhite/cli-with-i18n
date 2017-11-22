@@ -3,9 +3,9 @@ package shared
 import (
 	"encoding/json"
 
-	"code.cloudfoundry.org/cli/actor/pluginaction"
-	"code.cloudfoundry.org/cli/api/plugin/pluginerror"
-	"code.cloudfoundry.org/cli/command/translatableerror"
+	"github.com/liamawhite/cli-with-i18n/actor/pluginaction"
+	"github.com/liamawhite/cli-with-i18n/api/plugin/pluginerror"
+	"github.com/liamawhite/cli-with-i18n/command/translatableerror"
 )
 
 func HandleError(err error) error {

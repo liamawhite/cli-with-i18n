@@ -10,7 +10,7 @@ import (
 	"runtime"
 	"time"
 
-	"code.cloudfoundry.org/cli/api/uaa/internal"
+	"github.com/liamawhite/cli-with-i18n/api/uaa/internal"
 )
 
 // Client is the UAA client

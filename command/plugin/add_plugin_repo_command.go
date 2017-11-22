@@ -1,10 +1,10 @@
 package plugin
 
 import (
-	"code.cloudfoundry.org/cli/actor/pluginaction"
-	"code.cloudfoundry.org/cli/command"
-	"code.cloudfoundry.org/cli/command/flag"
-	"code.cloudfoundry.org/cli/command/plugin/shared"
+	"github.com/liamawhite/cli-with-i18n/actor/pluginaction"
+	"github.com/liamawhite/cli-with-i18n/command"
+	"github.com/liamawhite/cli-with-i18n/command/flag"
+	"github.com/liamawhite/cli-with-i18n/command/plugin/shared"
 )
 
 //go:generate counterfeiter . AddPluginRepoActor

@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"code.cloudfoundry.org/cli/api/uaa/internal"
+	"github.com/liamawhite/cli-with-i18n/api/uaa/internal"
 )
 
 // User represents an UAA user account.

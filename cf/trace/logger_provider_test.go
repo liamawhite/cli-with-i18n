@@ -5,8 +5,8 @@ import (
 	"path"
 	"runtime"
 
-	. "code.cloudfoundry.org/cli/cf/trace"
 	"code.cloudfoundry.org/gofileutils/fileutils"
+	. "github.com/liamawhite/cli-with-i18n/cf/trace"
 
 	"os"
 

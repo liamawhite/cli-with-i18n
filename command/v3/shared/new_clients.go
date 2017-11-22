@@ -1,12 +1,12 @@
 package shared
 
 import (
-	"code.cloudfoundry.org/cli/api/cloudcontroller/ccv3"
-	ccWrapper "code.cloudfoundry.org/cli/api/cloudcontroller/wrapper"
-	"code.cloudfoundry.org/cli/api/uaa"
-	uaaWrapper "code.cloudfoundry.org/cli/api/uaa/wrapper"
-	"code.cloudfoundry.org/cli/command"
-	"code.cloudfoundry.org/cli/command/translatableerror"
+	"github.com/liamawhite/cli-with-i18n/api/cloudcontroller/ccv3"
+	ccWrapper "github.com/liamawhite/cli-with-i18n/api/cloudcontroller/wrapper"
+	"github.com/liamawhite/cli-with-i18n/api/uaa"
+	uaaWrapper "github.com/liamawhite/cli-with-i18n/api/uaa/wrapper"
+	"github.com/liamawhite/cli-with-i18n/command"
+	"github.com/liamawhite/cli-with-i18n/command/translatableerror"
 )
 
 // NewClients creates a new V3 Cloud Controller client and UAA client using the

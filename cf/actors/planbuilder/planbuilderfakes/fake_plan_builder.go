@@ -4,8 +4,8 @@ package planbuilderfakes
 import (
 	"sync"
 
-	"code.cloudfoundry.org/cli/cf/actors/planbuilder"
-	"code.cloudfoundry.org/cli/cf/models"
+	"github.com/liamawhite/cli-with-i18n/cf/actors/planbuilder"
+	"github.com/liamawhite/cli-with-i18n/cf/models"
 )
 
 type FakePlanBuilder struct {

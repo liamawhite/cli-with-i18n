@@ -5,8 +5,8 @@ import (
 	"io"
 	"sync"
 
-	"code.cloudfoundry.org/cli/cf/ssh/terminal"
 	"github.com/docker/docker/pkg/term"
+	"github.com/liamawhite/cli-with-i18n/cf/ssh/terminal"
 )
 
 type FakeTerminalHelper struct {

@@ -4,7 +4,7 @@ package sharedactionfakes
 import (
 	"sync"
 
-	"code.cloudfoundry.org/cli/actor/sharedaction"
+	"github.com/liamawhite/cli-with-i18n/actor/sharedaction"
 )
 
 type FakeConfig struct {

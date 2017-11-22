@@ -5,7 +5,7 @@ import (
 	"os/exec"
 	"strings"
 
-	"code.cloudfoundry.org/cli/integration/helpers"
+	"github.com/liamawhite/cli-with-i18n/integration/helpers"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/ginkgo/extensions/table"
@@ -32,18 +32,18 @@ var _ = Describe("version command", func() {
 			var ldFlags []string
 			if version != "" {
 				ldFlags = append(ldFlags,
-					fmt.Sprintf("-X code.cloudfoundry.org/cli/version.binaryVersion=%s", version))
+					fmt.Sprintf("-X github.com/liamawhite/cli-with-i18n/version.binaryVersion=%s", version))
 			}
 			if sha != "" {
 				ldFlags = append(ldFlags,
-					fmt.Sprintf("-X code.cloudfoundry.org/cli/version.binarySHA=%s", sha))
+					fmt.Sprintf("-X github.com/liamawhite/cli-with-i18n/version.binarySHA=%s", sha))
 			}
 			if date != "" {
 				ldFlags = append(ldFlags,
-					fmt.Sprintf("-X code.cloudfoundry.org/cli/version.binaryBuildDate=%s", date))
+					fmt.Sprintf("-X github.com/liamawhite/cli-with-i18n/version.binaryBuildDate=%s", date))
 			}
 
-			path, err := Build("code.cloudfoundry.org/cli",
+			path, err := Build("github.com/liamawhite/cli-with-i18n",
 				"-ldflags",
 				strings.Join(ldFlags, " "),
 			)

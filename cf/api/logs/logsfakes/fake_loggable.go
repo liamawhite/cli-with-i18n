@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"code.cloudfoundry.org/cli/cf/api/logs"
+	"github.com/liamawhite/cli-with-i18n/cf/api/logs"
 )
 
 type FakeLoggable struct {

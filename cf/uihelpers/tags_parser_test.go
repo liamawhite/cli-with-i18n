@@ -1,7 +1,7 @@
 package uihelpers_test
 
 import (
-	. "code.cloudfoundry.org/cli/cf/uihelpers"
+	. "github.com/liamawhite/cli-with-i18n/cf/uihelpers"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

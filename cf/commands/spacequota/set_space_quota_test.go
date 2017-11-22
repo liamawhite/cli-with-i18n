@@ -1,19 +1,19 @@
 package spacequota_test
 
 import (
-	"code.cloudfoundry.org/cli/cf/api/spacequotas/spacequotasfakes"
-	"code.cloudfoundry.org/cli/cf/api/spaces/spacesfakes"
-	"code.cloudfoundry.org/cli/cf/commands/spacequota"
-	"code.cloudfoundry.org/cli/cf/configuration/coreconfig/coreconfigfakes"
-	"code.cloudfoundry.org/cli/cf/errors"
-	"code.cloudfoundry.org/cli/cf/flags"
-	"code.cloudfoundry.org/cli/cf/models"
-	"code.cloudfoundry.org/cli/cf/requirements"
-	"code.cloudfoundry.org/cli/cf/requirements/requirementsfakes"
-	testterm "code.cloudfoundry.org/cli/util/testhelpers/terminal"
+	"github.com/liamawhite/cli-with-i18n/cf/api/spacequotas/spacequotasfakes"
+	"github.com/liamawhite/cli-with-i18n/cf/api/spaces/spacesfakes"
+	"github.com/liamawhite/cli-with-i18n/cf/commands/spacequota"
+	"github.com/liamawhite/cli-with-i18n/cf/configuration/coreconfig/coreconfigfakes"
+	"github.com/liamawhite/cli-with-i18n/cf/errors"
+	"github.com/liamawhite/cli-with-i18n/cf/flags"
+	"github.com/liamawhite/cli-with-i18n/cf/models"
+	"github.com/liamawhite/cli-with-i18n/cf/requirements"
+	"github.com/liamawhite/cli-with-i18n/cf/requirements/requirementsfakes"
+	testterm "github.com/liamawhite/cli-with-i18n/util/testhelpers/terminal"
 
-	"code.cloudfoundry.org/cli/cf/commandregistry"
-	. "code.cloudfoundry.org/cli/util/testhelpers/matchers"
+	"github.com/liamawhite/cli-with-i18n/cf/commandregistry"
+	. "github.com/liamawhite/cli-with-i18n/util/testhelpers/matchers"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

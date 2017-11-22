@@ -1,8 +1,8 @@
 package userprint
 
 import (
-	"code.cloudfoundry.org/cli/cf/models"
-	"code.cloudfoundry.org/cli/plugin/models"
+	"github.com/liamawhite/cli-with-i18n/cf/models"
+	"github.com/liamawhite/cli-with-i18n/plugin/models"
 )
 
 type pluginPrinter struct {

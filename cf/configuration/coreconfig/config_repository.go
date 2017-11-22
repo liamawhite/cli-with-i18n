@@ -4,10 +4,10 @@ import (
 	"strings"
 	"sync"
 
-	"code.cloudfoundry.org/cli/cf/configuration"
-	"code.cloudfoundry.org/cli/cf/models"
-	"code.cloudfoundry.org/cli/version"
 	"github.com/blang/semver"
+	"github.com/liamawhite/cli-with-i18n/cf/configuration"
+	"github.com/liamawhite/cli-with-i18n/cf/models"
+	"github.com/liamawhite/cli-with-i18n/version"
 )
 
 type ConfigRepository struct {

@@ -3,9 +3,9 @@ package v2
 import (
 	"os"
 
-	"code.cloudfoundry.org/cli/cf/cmd"
-	"code.cloudfoundry.org/cli/command"
-	"code.cloudfoundry.org/cli/command/flag"
+	"github.com/liamawhite/cli-with-i18n/cf/cmd"
+	"github.com/liamawhite/cli-with-i18n/command"
+	"github.com/liamawhite/cli-with-i18n/command/flag"
 )
 
 type CreateQuotaCommand struct {

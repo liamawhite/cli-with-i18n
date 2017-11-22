@@ -5,12 +5,12 @@ import (
 	"os"
 	"path/filepath"
 
-	"code.cloudfoundry.org/cli/cf/configuration"
-	"code.cloudfoundry.org/cli/cf/configuration/confighelpers"
-	. "code.cloudfoundry.org/cli/cf/configuration/pluginconfig"
-	"code.cloudfoundry.org/cli/plugin"
+	"github.com/liamawhite/cli-with-i18n/cf/configuration"
+	"github.com/liamawhite/cli-with-i18n/cf/configuration/confighelpers"
+	. "github.com/liamawhite/cli-with-i18n/cf/configuration/pluginconfig"
+	"github.com/liamawhite/cli-with-i18n/plugin"
 
-	"code.cloudfoundry.org/cli/cf/configuration/configurationfakes"
+	"github.com/liamawhite/cli-with-i18n/cf/configuration/configurationfakes"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

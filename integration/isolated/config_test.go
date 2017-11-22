@@ -4,8 +4,8 @@ import (
 	"io/ioutil"
 	"path/filepath"
 
-	helpers "code.cloudfoundry.org/cli/integration/helpers"
-	"code.cloudfoundry.org/cli/util/configv3"
+	helpers "github.com/liamawhite/cli-with-i18n/integration/helpers"
+	"github.com/liamawhite/cli-with-i18n/util/configv3"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	. "github.com/onsi/gomega/gbytes"

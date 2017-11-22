@@ -1,7 +1,7 @@
 package ccerror_test
 
 import (
-	. "code.cloudfoundry.org/cli/api/cloudcontroller/ccerror"
+	. "github.com/liamawhite/cli-with-i18n/api/cloudcontroller/ccerror"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

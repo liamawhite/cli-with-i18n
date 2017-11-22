@@ -3,8 +3,8 @@ package v2action
 import (
 	"fmt"
 
-	"code.cloudfoundry.org/cli/api/cloudcontroller/ccerror"
-	"code.cloudfoundry.org/cli/api/cloudcontroller/ccv2"
+	"github.com/liamawhite/cli-with-i18n/api/cloudcontroller/ccerror"
+	"github.com/liamawhite/cli-with-i18n/api/cloudcontroller/ccv2"
 )
 
 type Stack ccv2.Stack

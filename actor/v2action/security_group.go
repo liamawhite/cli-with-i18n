@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"sort"
 
-	"code.cloudfoundry.org/cli/api/cloudcontroller/ccerror"
-	"code.cloudfoundry.org/cli/api/cloudcontroller/ccv2"
+	"github.com/liamawhite/cli-with-i18n/api/cloudcontroller/ccerror"
+	"github.com/liamawhite/cli-with-i18n/api/cloudcontroller/ccv2"
 )
 
 // SecurityGroup represents a CF SecurityGroup.

@@ -4,14 +4,14 @@ import (
 	"fmt"
 	"sort"
 
-	"code.cloudfoundry.org/cli/cf/commandregistry"
-	"code.cloudfoundry.org/cli/cf/configuration/pluginconfig"
-	"code.cloudfoundry.org/cli/cf/flags"
-	. "code.cloudfoundry.org/cli/cf/i18n"
-	"code.cloudfoundry.org/cli/cf/requirements"
-	"code.cloudfoundry.org/cli/cf/terminal"
-	"code.cloudfoundry.org/cli/util"
-	"code.cloudfoundry.org/cli/util/sorting"
+	"github.com/liamawhite/cli-with-i18n/cf/commandregistry"
+	"github.com/liamawhite/cli-with-i18n/cf/configuration/pluginconfig"
+	"github.com/liamawhite/cli-with-i18n/cf/flags"
+	. "github.com/liamawhite/cli-with-i18n/cf/i18n"
+	"github.com/liamawhite/cli-with-i18n/cf/requirements"
+	"github.com/liamawhite/cli-with-i18n/cf/terminal"
+	"github.com/liamawhite/cli-with-i18n/util"
+	"github.com/liamawhite/cli-with-i18n/util/sorting"
 )
 
 type Plugins struct {

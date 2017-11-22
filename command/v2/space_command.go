@@ -4,16 +4,16 @@ import (
 	"fmt"
 	"strings"
 
-	"code.cloudfoundry.org/cli/actor/sharedaction"
-	"code.cloudfoundry.org/cli/actor/v2action"
-	"code.cloudfoundry.org/cli/actor/v3action"
-	"code.cloudfoundry.org/cli/api/cloudcontroller/ccversion"
-	"code.cloudfoundry.org/cli/command"
-	"code.cloudfoundry.org/cli/command/flag"
-	"code.cloudfoundry.org/cli/command/translatableerror"
-	"code.cloudfoundry.org/cli/command/v2/shared"
-	sharedV3 "code.cloudfoundry.org/cli/command/v3/shared"
-	"code.cloudfoundry.org/cli/util/ui"
+	"github.com/liamawhite/cli-with-i18n/actor/sharedaction"
+	"github.com/liamawhite/cli-with-i18n/actor/v2action"
+	"github.com/liamawhite/cli-with-i18n/actor/v3action"
+	"github.com/liamawhite/cli-with-i18n/api/cloudcontroller/ccversion"
+	"github.com/liamawhite/cli-with-i18n/command"
+	"github.com/liamawhite/cli-with-i18n/command/flag"
+	"github.com/liamawhite/cli-with-i18n/command/translatableerror"
+	"github.com/liamawhite/cli-with-i18n/command/v2/shared"
+	sharedV3 "github.com/liamawhite/cli-with-i18n/command/v3/shared"
+	"github.com/liamawhite/cli-with-i18n/util/ui"
 )
 
 //go:generate counterfeiter . SpaceActor

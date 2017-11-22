@@ -4,9 +4,9 @@ package v2fakes
 import (
 	"sync"
 
-	"code.cloudfoundry.org/cli/actor/pushaction"
-	"code.cloudfoundry.org/cli/command/v2"
-	"code.cloudfoundry.org/cli/util/manifest"
+	"github.com/liamawhite/cli-with-i18n/actor/pushaction"
+	"github.com/liamawhite/cli-with-i18n/command/v2"
+	"github.com/liamawhite/cli-with-i18n/util/manifest"
 )
 
 type FakeV2PushActor struct {

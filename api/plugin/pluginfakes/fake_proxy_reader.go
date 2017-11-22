@@ -5,7 +5,7 @@ import (
 	"io"
 	"sync"
 
-	"code.cloudfoundry.org/cli/api/plugin"
+	"github.com/liamawhite/cli-with-i18n/api/plugin"
 )
 
 type FakeProxyReader struct {

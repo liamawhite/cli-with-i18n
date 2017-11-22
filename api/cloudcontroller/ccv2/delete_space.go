@@ -5,8 +5,8 @@ package ccv2
 import (
 	"net/url"
 
-	"code.cloudfoundry.org/cli/api/cloudcontroller"
-	"code.cloudfoundry.org/cli/api/cloudcontroller/ccv2/internal"
+	"github.com/liamawhite/cli-with-i18n/api/cloudcontroller"
+	"github.com/liamawhite/cli-with-i18n/api/cloudcontroller/ccv2/internal"
 )
 
 // DeleteSpace deletes the Space associated with the provided

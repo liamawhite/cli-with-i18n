@@ -4,8 +4,8 @@ package v3fakes
 import (
 	"sync"
 
-	"code.cloudfoundry.org/cli/actor/v2action"
-	"code.cloudfoundry.org/cli/command/v3"
+	"github.com/liamawhite/cli-with-i18n/actor/v2action"
+	"github.com/liamawhite/cli-with-i18n/command/v3"
 )
 
 type FakeResetOrgDefaultIsolationSegmentActorV2 struct {

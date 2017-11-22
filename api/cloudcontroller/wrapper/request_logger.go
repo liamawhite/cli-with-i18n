@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	"code.cloudfoundry.org/cli/api/cloudcontroller"
+	"github.com/liamawhite/cli-with-i18n/api/cloudcontroller"
 )
 
 //go:generate counterfeiter . RequestLoggerOutput

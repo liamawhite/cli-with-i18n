@@ -5,10 +5,10 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"code.cloudfoundry.org/cli/cf/api/resources"
-	"code.cloudfoundry.org/cli/cf/configuration/coreconfig"
-	"code.cloudfoundry.org/cli/cf/models"
-	"code.cloudfoundry.org/cli/cf/net"
+	"github.com/liamawhite/cli-with-i18n/cf/api/resources"
+	"github.com/liamawhite/cli-with-i18n/cf/configuration/coreconfig"
+	"github.com/liamawhite/cli-with-i18n/cf/models"
+	"github.com/liamawhite/cli-with-i18n/cf/net"
 )
 
 //go:generate counterfeiter . ServiceBindingRepository

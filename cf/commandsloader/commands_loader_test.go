@@ -6,8 +6,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"code.cloudfoundry.org/cli/cf/commandregistry"
-	"code.cloudfoundry.org/cli/cf/commandsloader"
+	"github.com/liamawhite/cli-with-i18n/cf/commandregistry"
+	"github.com/liamawhite/cli-with-i18n/cf/commandsloader"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

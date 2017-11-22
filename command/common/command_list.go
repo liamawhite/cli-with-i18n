@@ -3,9 +3,9 @@ package common
 import (
 	"reflect"
 
-	"code.cloudfoundry.org/cli/command/plugin"
-	"code.cloudfoundry.org/cli/command/v2"
-	"code.cloudfoundry.org/cli/command/v3"
+	"github.com/liamawhite/cli-with-i18n/command/plugin"
+	"github.com/liamawhite/cli-with-i18n/command/v2"
+	"github.com/liamawhite/cli-with-i18n/command/v3"
 )
 
 var Commands commandList

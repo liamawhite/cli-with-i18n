@@ -6,7 +6,7 @@ import (
 	"text/template"
 	"time"
 
-	. "code.cloudfoundry.org/cli/command/translatableerror"
+	. "github.com/liamawhite/cli-with-i18n/command/translatableerror"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

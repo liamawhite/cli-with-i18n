@@ -5,8 +5,8 @@ import (
 	"os"
 	"strings"
 
-	"code.cloudfoundry.org/cli/plugin"
 	"github.com/blang/semver"
+	"github.com/liamawhite/cli-with-i18n/plugin"
 )
 
 var (

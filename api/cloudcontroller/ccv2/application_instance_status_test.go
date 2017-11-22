@@ -3,8 +3,8 @@ package ccv2_test
 import (
 	"net/http"
 
-	"code.cloudfoundry.org/cli/api/cloudcontroller/ccerror"
-	. "code.cloudfoundry.org/cli/api/cloudcontroller/ccv2"
+	"github.com/liamawhite/cli-with-i18n/api/cloudcontroller/ccerror"
+	. "github.com/liamawhite/cli-with-i18n/api/cloudcontroller/ccv2"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	. "github.com/onsi/gomega/ghttp"

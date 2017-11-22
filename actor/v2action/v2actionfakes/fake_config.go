@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"code.cloudfoundry.org/cli/actor/v2action"
+	"github.com/liamawhite/cli-with-i18n/actor/v2action"
 )
 
 type FakeConfig struct {

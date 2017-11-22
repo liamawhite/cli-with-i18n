@@ -5,7 +5,7 @@ import (
 	"sort"
 	"strings"
 
-	"code.cloudfoundry.org/cli/api/cloudcontroller/ccv3/constant"
+	"github.com/liamawhite/cli-with-i18n/api/cloudcontroller/ccv3/constant"
 )
 
 // ProcessSummary represents a process with instance details.

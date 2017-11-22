@@ -4,8 +4,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"code.cloudfoundry.org/cli/integration/helpers"
-	"code.cloudfoundry.org/cli/util/generic"
+	"github.com/liamawhite/cli-with-i18n/integration/helpers"
+	"github.com/liamawhite/cli-with-i18n/util/generic"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	. "github.com/onsi/gomega/gbytes"

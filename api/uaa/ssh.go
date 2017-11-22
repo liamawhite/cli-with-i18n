@@ -3,7 +3,7 @@ package uaa
 import (
 	"net/url"
 
-	"code.cloudfoundry.org/cli/api/uaa/internal"
+	"github.com/liamawhite/cli-with-i18n/api/uaa/internal"
 )
 
 func (client *Client) GetSSHPasscode(accessToken string, sshOAuthClient string) (string, error) {

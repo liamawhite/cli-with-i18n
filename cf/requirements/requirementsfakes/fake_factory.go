@@ -4,8 +4,8 @@ package requirementsfakes
 import (
 	"sync"
 
-	"code.cloudfoundry.org/cli/cf/requirements"
 	"github.com/blang/semver"
+	"github.com/liamawhite/cli-with-i18n/cf/requirements"
 )
 
 type FakeFactory struct {

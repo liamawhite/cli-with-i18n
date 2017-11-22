@@ -3,12 +3,12 @@ package actors_test
 import (
 	"errors"
 
-	. "code.cloudfoundry.org/cli/cf/actors"
-	"code.cloudfoundry.org/cli/cf/api/apifakes"
-	cferrors "code.cloudfoundry.org/cli/cf/errors"
-	"code.cloudfoundry.org/cli/cf/errors/errorsfakes"
-	"code.cloudfoundry.org/cli/cf/models"
-	"code.cloudfoundry.org/cli/cf/terminal/terminalfakes"
+	. "github.com/liamawhite/cli-with-i18n/cf/actors"
+	"github.com/liamawhite/cli-with-i18n/cf/api/apifakes"
+	cferrors "github.com/liamawhite/cli-with-i18n/cf/errors"
+	"github.com/liamawhite/cli-with-i18n/cf/errors/errorsfakes"
+	"github.com/liamawhite/cli-with-i18n/cf/models"
+	"github.com/liamawhite/cli-with-i18n/cf/terminal/terminalfakes"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

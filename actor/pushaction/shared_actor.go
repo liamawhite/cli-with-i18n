@@ -1,6 +1,6 @@
 package pushaction
 
-import "code.cloudfoundry.org/cli/actor/sharedaction"
+import "github.com/liamawhite/cli-with-i18n/actor/sharedaction"
 
 //go:generate counterfeiter . SharedActor
 

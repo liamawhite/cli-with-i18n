@@ -4,9 +4,9 @@ import (
 	"errors"
 	"time"
 
-	. "code.cloudfoundry.org/cli/actor/v3action"
-	"code.cloudfoundry.org/cli/actor/v3action/v3actionfakes"
-	"code.cloudfoundry.org/cli/api/cloudcontroller/ccv3"
+	. "github.com/liamawhite/cli-with-i18n/actor/v3action"
+	"github.com/liamawhite/cli-with-i18n/actor/v3action/v3actionfakes"
+	"github.com/liamawhite/cli-with-i18n/api/cloudcontroller/ccv3"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

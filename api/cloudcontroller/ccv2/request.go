@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"net/url"
 
-	"code.cloudfoundry.org/cli/api/cloudcontroller"
+	"github.com/liamawhite/cli-with-i18n/api/cloudcontroller"
 )
 
 // Params represents URI parameters for a request.

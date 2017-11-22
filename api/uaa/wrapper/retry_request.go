@@ -5,7 +5,7 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"code.cloudfoundry.org/cli/api/uaa"
+	"github.com/liamawhite/cli-with-i18n/api/uaa"
 )
 
 // RetryRequest is a wrapper that retries failed requests if they contain a 5XX

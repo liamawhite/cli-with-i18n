@@ -3,9 +3,9 @@ package ccv3_test
 import (
 	"net/http"
 
-	"code.cloudfoundry.org/cli/api/cloudcontroller/ccerror"
-	. "code.cloudfoundry.org/cli/api/cloudcontroller/ccv3"
-	"code.cloudfoundry.org/cli/types"
+	"github.com/liamawhite/cli-with-i18n/api/cloudcontroller/ccerror"
+	. "github.com/liamawhite/cli-with-i18n/api/cloudcontroller/ccv3"
+	"github.com/liamawhite/cli-with-i18n/types"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	. "github.com/onsi/gomega/ghttp"

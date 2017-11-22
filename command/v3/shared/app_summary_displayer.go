@@ -5,11 +5,11 @@ import (
 	"strings"
 	"time"
 
-	"code.cloudfoundry.org/cli/actor/v2action"
-	"code.cloudfoundry.org/cli/actor/v3action"
-	"code.cloudfoundry.org/cli/command"
-	sharedV2 "code.cloudfoundry.org/cli/command/v2/shared"
 	"github.com/cloudfoundry/bytefmt"
+	"github.com/liamawhite/cli-with-i18n/actor/v2action"
+	"github.com/liamawhite/cli-with-i18n/actor/v3action"
+	"github.com/liamawhite/cli-with-i18n/command"
+	sharedV2 "github.com/liamawhite/cli-with-i18n/command/v2/shared"
 )
 
 type AppSummaryDisplayer struct {

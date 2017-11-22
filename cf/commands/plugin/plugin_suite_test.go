@@ -3,10 +3,10 @@ package plugin_test
 import (
 	"path/filepath"
 
-	"code.cloudfoundry.org/cli/cf/commands/plugin"
-	"code.cloudfoundry.org/cli/cf/i18n"
-	"code.cloudfoundry.org/cli/util/testhelpers/configuration"
-	"code.cloudfoundry.org/cli/util/testhelpers/pluginbuilder"
+	"github.com/liamawhite/cli-with-i18n/cf/commands/plugin"
+	"github.com/liamawhite/cli-with-i18n/cf/i18n"
+	"github.com/liamawhite/cli-with-i18n/util/testhelpers/configuration"
+	"github.com/liamawhite/cli-with-i18n/util/testhelpers/pluginbuilder"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 

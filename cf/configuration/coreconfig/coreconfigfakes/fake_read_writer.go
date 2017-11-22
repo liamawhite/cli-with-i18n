@@ -4,9 +4,9 @@ package coreconfigfakes
 import (
 	"sync"
 
-	"code.cloudfoundry.org/cli/cf/configuration/coreconfig"
-	"code.cloudfoundry.org/cli/cf/models"
 	"github.com/blang/semver"
+	"github.com/liamawhite/cli-with-i18n/cf/configuration/coreconfig"
+	"github.com/liamawhite/cli-with-i18n/cf/models"
 )
 
 type FakeReadWriter struct {

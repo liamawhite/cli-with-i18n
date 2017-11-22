@@ -3,7 +3,7 @@ package wrapper
 import (
 	"code.cloudfoundry.org/cfnetworking-cli-api/cfnetworking"
 	"code.cloudfoundry.org/cfnetworking-cli-api/cfnetworking/networkerror"
-	"code.cloudfoundry.org/cli/api/uaa"
+	"github.com/liamawhite/cli-with-i18n/api/uaa"
 )
 
 //go:generate counterfeiter . UAAClient

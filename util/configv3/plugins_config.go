@@ -9,7 +9,7 @@ import (
 	"sort"
 	"strings"
 
-	"code.cloudfoundry.org/cli/util"
+	"github.com/liamawhite/cli-with-i18n/util"
 )
 
 // PluginsConfig represents the plugin configuration

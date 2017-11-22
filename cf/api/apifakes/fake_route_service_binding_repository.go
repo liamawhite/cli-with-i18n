@@ -4,7 +4,7 @@ package apifakes
 import (
 	"sync"
 
-	"code.cloudfoundry.org/cli/cf/api"
+	"github.com/liamawhite/cli-with-i18n/cf/api"
 )
 
 type FakeRouteServiceBindingRepository struct {

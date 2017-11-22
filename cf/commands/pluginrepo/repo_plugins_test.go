@@ -1,20 +1,20 @@
 package pluginrepo_test
 
 import (
-	"code.cloudfoundry.org/cli/cf/actors/pluginrepo/pluginrepofakes"
-	"code.cloudfoundry.org/cli/cf/commands/pluginrepo"
-	"code.cloudfoundry.org/cli/cf/configuration/coreconfig"
-	"code.cloudfoundry.org/cli/cf/models"
+	"github.com/liamawhite/cli-with-i18n/cf/actors/pluginrepo/pluginrepofakes"
+	"github.com/liamawhite/cli-with-i18n/cf/commands/pluginrepo"
+	"github.com/liamawhite/cli-with-i18n/cf/configuration/coreconfig"
+	"github.com/liamawhite/cli-with-i18n/cf/models"
 
-	"code.cloudfoundry.org/cli/cf/commandregistry"
-	. "code.cloudfoundry.org/cli/util/testhelpers/matchers"
+	"github.com/liamawhite/cli-with-i18n/cf/commandregistry"
+	. "github.com/liamawhite/cli-with-i18n/util/testhelpers/matchers"
 
-	testconfig "code.cloudfoundry.org/cli/util/testhelpers/configuration"
-	testterm "code.cloudfoundry.org/cli/util/testhelpers/terminal"
+	testconfig "github.com/liamawhite/cli-with-i18n/util/testhelpers/configuration"
+	testterm "github.com/liamawhite/cli-with-i18n/util/testhelpers/terminal"
 
 	clipr "github.com/cloudfoundry-incubator/cli-plugin-repo/web"
 
-	"code.cloudfoundry.org/cli/cf/flags"
+	"github.com/liamawhite/cli-with-i18n/cf/flags"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/url"
 
-	"code.cloudfoundry.org/cli/api/cloudcontroller/ccv3"
+	"github.com/liamawhite/cli-with-i18n/api/cloudcontroller/ccv3"
 )
 
 // Organization represents a V3 actor organization.

@@ -4,8 +4,8 @@ package uifakes
 import (
 	"sync"
 
-	"code.cloudfoundry.org/cli/util/configv3"
-	"code.cloudfoundry.org/cli/util/ui"
+	"github.com/liamawhite/cli-with-i18n/util/configv3"
+	"github.com/liamawhite/cli-with-i18n/util/ui"
 )
 
 type FakeConfig struct {

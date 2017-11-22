@@ -4,8 +4,8 @@ package spacequotasfakes
 import (
 	"sync"
 
-	"code.cloudfoundry.org/cli/cf/api/spacequotas"
-	"code.cloudfoundry.org/cli/cf/models"
+	"github.com/liamawhite/cli-with-i18n/cf/api/spacequotas"
+	"github.com/liamawhite/cli-with-i18n/cf/models"
 )
 
 type FakeSpaceQuotaRepository struct {

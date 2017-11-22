@@ -5,11 +5,11 @@ import (
 	"math"
 	"strings"
 
-	"code.cloudfoundry.org/cli/actor/sharedaction"
-	"code.cloudfoundry.org/cli/command"
-	"code.cloudfoundry.org/cli/command/common/internal"
-	"code.cloudfoundry.org/cli/command/flag"
-	"code.cloudfoundry.org/cli/util/configv3"
+	"github.com/liamawhite/cli-with-i18n/actor/sharedaction"
+	"github.com/liamawhite/cli-with-i18n/command"
+	"github.com/liamawhite/cli-with-i18n/command/common/internal"
+	"github.com/liamawhite/cli-with-i18n/command/flag"
+	"github.com/liamawhite/cli-with-i18n/util/configv3"
 )
 
 const (

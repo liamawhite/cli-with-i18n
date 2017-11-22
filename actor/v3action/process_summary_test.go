@@ -1,8 +1,8 @@
 package v3action_test
 
 import (
-	. "code.cloudfoundry.org/cli/actor/v3action"
-	"code.cloudfoundry.org/cli/api/cloudcontroller/ccv3/constant"
+	. "github.com/liamawhite/cli-with-i18n/actor/v3action"
+	"github.com/liamawhite/cli-with-i18n/api/cloudcontroller/ccv3/constant"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

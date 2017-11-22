@@ -3,7 +3,7 @@ package ccv3
 import (
 	"net/http"
 
-	"code.cloudfoundry.org/cli/api/cloudcontroller"
+	"github.com/liamawhite/cli-with-i18n/api/cloudcontroller"
 )
 
 func (client Client) paginate(request *cloudcontroller.Request, obj interface{}, appendToExternalList func(interface{}) error) (Warnings, error) {

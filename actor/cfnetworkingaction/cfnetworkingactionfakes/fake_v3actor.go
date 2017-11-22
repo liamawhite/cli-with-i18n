@@ -4,8 +4,8 @@ package cfnetworkingactionfakes
 import (
 	"sync"
 
-	"code.cloudfoundry.org/cli/actor/cfnetworkingaction"
-	"code.cloudfoundry.org/cli/actor/v3action"
+	"github.com/liamawhite/cli-with-i18n/actor/cfnetworkingaction"
+	"github.com/liamawhite/cli-with-i18n/actor/v3action"
 )
 
 type FakeV3Actor struct {

@@ -1,6 +1,6 @@
 package pluginaction
 
-import "code.cloudfoundry.org/cli/api/plugin"
+import "github.com/liamawhite/cli-with-i18n/api/plugin"
 
 //go:generate counterfeiter . PluginClient
 

@@ -4,7 +4,7 @@ package appfilesfakes
 import (
 	"sync"
 
-	"code.cloudfoundry.org/cli/cf/appfiles"
+	"github.com/liamawhite/cli-with-i18n/cf/appfiles"
 )
 
 type FakeCfIgnore struct {

@@ -12,7 +12,7 @@ import (
 	"net/url"
 	"time"
 
-	"code.cloudfoundry.org/cli/api/plugin/pluginerror"
+	"github.com/liamawhite/cli-with-i18n/api/plugin/pluginerror"
 )
 
 // PluginConnection represents a connection to a plugin repo.

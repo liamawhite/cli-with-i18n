@@ -4,18 +4,18 @@ import (
 	"errors"
 	"time"
 
-	"code.cloudfoundry.org/cli/cf/configuration/coreconfig"
 	noaaerrors "github.com/cloudfoundry/noaa/errors"
 	"github.com/cloudfoundry/sonde-go/events"
 	"github.com/gogo/protobuf/proto"
+	"github.com/liamawhite/cli-with-i18n/cf/configuration/coreconfig"
 
-	"code.cloudfoundry.org/cli/cf/api/authentication/authenticationfakes"
-	testapi "code.cloudfoundry.org/cli/cf/api/logs/logsfakes"
-	testconfig "code.cloudfoundry.org/cli/util/testhelpers/configuration"
+	"github.com/liamawhite/cli-with-i18n/cf/api/authentication/authenticationfakes"
+	testapi "github.com/liamawhite/cli-with-i18n/cf/api/logs/logsfakes"
+	testconfig "github.com/liamawhite/cli-with-i18n/util/testhelpers/configuration"
 
 	"sync"
 
-	"code.cloudfoundry.org/cli/cf/api/logs"
+	"github.com/liamawhite/cli-with-i18n/cf/api/logs"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

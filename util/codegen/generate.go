@@ -7,7 +7,7 @@ import (
 	"os"
 	"text/template"
 
-	"code.cloudfoundry.org/cli/util/codegen"
+	"github.com/liamawhite/cli-with-i18n/util/codegen"
 )
 
 func main() {

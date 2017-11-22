@@ -4,11 +4,11 @@ import (
 	"path/filepath"
 	"strings"
 
-	"code.cloudfoundry.org/cli/cf/commandregistry"
-	"code.cloudfoundry.org/cli/cf/configuration/confighelpers"
-	"code.cloudfoundry.org/cli/cf/help"
+	"github.com/liamawhite/cli-with-i18n/cf/commandregistry"
+	"github.com/liamawhite/cli-with-i18n/cf/configuration/confighelpers"
+	"github.com/liamawhite/cli-with-i18n/cf/help"
 
-	"code.cloudfoundry.org/cli/util/testhelpers/io"
+	"github.com/liamawhite/cli-with-i18n/util/testhelpers/io"
 
 	"os"
 

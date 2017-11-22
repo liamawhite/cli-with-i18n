@@ -3,7 +3,7 @@ package matchers
 import (
 	"fmt"
 
-	testcmd "code.cloudfoundry.org/cli/util/testhelpers/commands"
+	testcmd "github.com/liamawhite/cli-with-i18n/util/testhelpers/commands"
 	"github.com/onsi/gomega"
 )
 

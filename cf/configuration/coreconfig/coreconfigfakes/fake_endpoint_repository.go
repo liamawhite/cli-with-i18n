@@ -4,7 +4,7 @@ package coreconfigfakes
 import (
 	"sync"
 
-	"code.cloudfoundry.org/cli/cf/configuration/coreconfig"
+	"github.com/liamawhite/cli-with-i18n/cf/configuration/coreconfig"
 )
 
 type FakeEndpointRepository struct {

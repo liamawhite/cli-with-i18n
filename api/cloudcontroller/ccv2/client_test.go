@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"runtime"
 
-	. "code.cloudfoundry.org/cli/api/cloudcontroller/ccv2"
-	"code.cloudfoundry.org/cli/api/cloudcontroller/ccv2/ccv2fakes"
+	. "github.com/liamawhite/cli-with-i18n/api/cloudcontroller/ccv2"
+	"github.com/liamawhite/cli-with-i18n/api/cloudcontroller/ccv2/ccv2fakes"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

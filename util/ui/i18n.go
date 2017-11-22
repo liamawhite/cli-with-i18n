@@ -7,7 +7,7 @@ import (
 	"strings"
 	"text/template"
 
-	"code.cloudfoundry.org/cli/i18n/resources"
+	"github.com/liamawhite/cli-with-i18n/i18n/resources"
 	"golang.org/x/text/language"
 )
 

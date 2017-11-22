@@ -3,11 +3,11 @@ package brokerbuilder_test
 import (
 	"errors"
 
-	"code.cloudfoundry.org/cli/cf/actors/brokerbuilder"
-	"code.cloudfoundry.org/cli/cf/api/apifakes"
-	"code.cloudfoundry.org/cli/cf/models"
+	"github.com/liamawhite/cli-with-i18n/cf/actors/brokerbuilder"
+	"github.com/liamawhite/cli-with-i18n/cf/api/apifakes"
+	"github.com/liamawhite/cli-with-i18n/cf/models"
 
-	"code.cloudfoundry.org/cli/cf/actors/servicebuilder/servicebuilderfakes"
+	"github.com/liamawhite/cli-with-i18n/cf/actors/servicebuilder/servicebuilderfakes"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

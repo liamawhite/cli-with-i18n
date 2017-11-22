@@ -1,9 +1,9 @@
 package brokerbuilder
 
 import (
-	"code.cloudfoundry.org/cli/cf/actors/servicebuilder"
-	"code.cloudfoundry.org/cli/cf/api"
-	"code.cloudfoundry.org/cli/cf/models"
+	"github.com/liamawhite/cli-with-i18n/cf/actors/servicebuilder"
+	"github.com/liamawhite/cli-with-i18n/cf/api"
+	"github.com/liamawhite/cli-with-i18n/cf/models"
 )
 
 //go:generate counterfeiter . BrokerBuilder

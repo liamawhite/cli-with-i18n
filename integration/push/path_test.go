@@ -5,7 +5,7 @@ import (
 	"os"
 	"regexp"
 
-	"code.cloudfoundry.org/cli/integration/helpers"
+	"github.com/liamawhite/cli-with-i18n/integration/helpers"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

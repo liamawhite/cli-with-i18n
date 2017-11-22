@@ -8,9 +8,9 @@ import (
 	"runtime"
 	"strings"
 
-	. "code.cloudfoundry.org/cli/api/plugin"
-	"code.cloudfoundry.org/cli/api/plugin/pluginerror"
-	"code.cloudfoundry.org/cli/api/plugin/pluginfakes"
+	. "github.com/liamawhite/cli-with-i18n/api/plugin"
+	"github.com/liamawhite/cli-with-i18n/api/plugin/pluginerror"
+	"github.com/liamawhite/cli-with-i18n/api/plugin/pluginfakes"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	. "github.com/onsi/gomega/ghttp"

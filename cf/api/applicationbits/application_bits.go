@@ -10,11 +10,11 @@ import (
 	"os"
 	"time"
 
-	"code.cloudfoundry.org/cli/cf/api/resources"
-	"code.cloudfoundry.org/cli/cf/configuration/coreconfig"
-	. "code.cloudfoundry.org/cli/cf/i18n"
-	"code.cloudfoundry.org/cli/cf/net"
 	"code.cloudfoundry.org/gofileutils/fileutils"
+	"github.com/liamawhite/cli-with-i18n/cf/api/resources"
+	"github.com/liamawhite/cli-with-i18n/cf/configuration/coreconfig"
+	. "github.com/liamawhite/cli-with-i18n/cf/i18n"
+	"github.com/liamawhite/cli-with-i18n/cf/net"
 )
 
 const (

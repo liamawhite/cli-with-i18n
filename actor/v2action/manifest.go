@@ -1,8 +1,8 @@
 package v2action
 
 import (
-	"code.cloudfoundry.org/cli/api/cloudcontroller/ccv2"
-	"code.cloudfoundry.org/cli/util/manifest"
+	"github.com/liamawhite/cli-with-i18n/api/cloudcontroller/ccv2"
+	"github.com/liamawhite/cli-with-i18n/util/manifest"
 )
 
 func (actor Actor) CreateApplicationManifestByNameAndSpace(appName string, spaceGUID string, pathToFile string) (Warnings, error) {

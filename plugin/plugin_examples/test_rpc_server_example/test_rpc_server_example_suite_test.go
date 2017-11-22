@@ -1,7 +1,7 @@
 package main_test
 
 import (
-	"code.cloudfoundry.org/cli/util/testhelpers/pluginbuilder"
+	"github.com/liamawhite/cli-with-i18n/util/testhelpers/pluginbuilder"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 

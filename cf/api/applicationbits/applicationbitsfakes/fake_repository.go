@@ -5,8 +5,8 @@ import (
 	"os"
 	"sync"
 
-	"code.cloudfoundry.org/cli/cf/api/applicationbits"
-	"code.cloudfoundry.org/cli/cf/api/resources"
+	"github.com/liamawhite/cli-with-i18n/cf/api/applicationbits"
+	"github.com/liamawhite/cli-with-i18n/cf/api/resources"
 )
 
 type FakeRepository struct {

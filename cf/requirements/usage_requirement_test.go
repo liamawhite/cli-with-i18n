@@ -1,7 +1,7 @@
 package requirements_test
 
 import (
-	. "code.cloudfoundry.org/cli/cf/requirements"
+	. "github.com/liamawhite/cli-with-i18n/cf/requirements"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

@@ -8,8 +8,8 @@ import (
 	"strings"
 	"testing"
 
-	. "code.cloudfoundry.org/cli/api/uaa"
-	"code.cloudfoundry.org/cli/api/uaa/uaafakes"
+	. "github.com/liamawhite/cli-with-i18n/api/uaa"
+	"github.com/liamawhite/cli-with-i18n/api/uaa/uaafakes"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	. "github.com/onsi/gomega/ghttp"

@@ -1,6 +1,6 @@
 package pluginaction
 
-import "code.cloudfoundry.org/cli/util/configv3"
+import "github.com/liamawhite/cli-with-i18n/util/configv3"
 
 //go:generate counterfeiter . Config
 

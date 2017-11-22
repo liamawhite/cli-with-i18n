@@ -4,8 +4,8 @@ package servicefakes
 import (
 	"sync"
 
-	"code.cloudfoundry.org/cli/cf/commands/service"
-	"code.cloudfoundry.org/cli/cf/models"
+	"github.com/liamawhite/cli-with-i18n/cf/commands/service"
+	"github.com/liamawhite/cli-with-i18n/cf/models"
 )
 
 type FakeBinder struct {

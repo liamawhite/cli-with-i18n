@@ -3,8 +3,8 @@ package appfiles
 import (
 	"fmt"
 
-	"code.cloudfoundry.org/cli/cf/configuration/coreconfig"
-	"code.cloudfoundry.org/cli/cf/net"
+	"github.com/liamawhite/cli-with-i18n/cf/configuration/coreconfig"
+	"github.com/liamawhite/cli-with-i18n/cf/net"
 )
 
 //go:generate counterfeiter . Repository

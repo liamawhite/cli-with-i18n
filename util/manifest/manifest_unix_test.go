@@ -7,7 +7,7 @@ import (
 	"os"
 	"path/filepath"
 
-	. "code.cloudfoundry.org/cli/util/manifest"
+	. "github.com/liamawhite/cli-with-i18n/util/manifest"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

@@ -6,15 +6,15 @@ import (
 	"runtime"
 	"strings"
 
-	"code.cloudfoundry.org/cli/actor/pluginaction"
-	"code.cloudfoundry.org/cli/api/plugin"
-	"code.cloudfoundry.org/cli/api/plugin/pluginerror"
-	"code.cloudfoundry.org/cli/command"
-	"code.cloudfoundry.org/cli/command/flag"
-	"code.cloudfoundry.org/cli/command/plugin/shared"
-	"code.cloudfoundry.org/cli/command/translatableerror"
-	"code.cloudfoundry.org/cli/util"
-	"code.cloudfoundry.org/cli/util/configv3"
+	"github.com/liamawhite/cli-with-i18n/actor/pluginaction"
+	"github.com/liamawhite/cli-with-i18n/api/plugin"
+	"github.com/liamawhite/cli-with-i18n/api/plugin/pluginerror"
+	"github.com/liamawhite/cli-with-i18n/command"
+	"github.com/liamawhite/cli-with-i18n/command/flag"
+	"github.com/liamawhite/cli-with-i18n/command/plugin/shared"
+	"github.com/liamawhite/cli-with-i18n/command/translatableerror"
+	"github.com/liamawhite/cli-with-i18n/util"
+	"github.com/liamawhite/cli-with-i18n/util/configv3"
 )
 
 //go:generate counterfeiter . InstallPluginActor

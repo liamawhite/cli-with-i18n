@@ -5,24 +5,24 @@ import (
 	"io/ioutil"
 	"os"
 
-	"code.cloudfoundry.org/cli/cf/actors/servicebuilder/servicebuilderfakes"
-	"code.cloudfoundry.org/cli/cf/configuration/coreconfig"
-	"code.cloudfoundry.org/cli/cf/errors"
-	"code.cloudfoundry.org/cli/cf/models"
-	"code.cloudfoundry.org/cli/cf/requirements"
-	"code.cloudfoundry.org/cli/cf/requirements/requirementsfakes"
+	"github.com/liamawhite/cli-with-i18n/cf/actors/servicebuilder/servicebuilderfakes"
+	"github.com/liamawhite/cli-with-i18n/cf/configuration/coreconfig"
+	"github.com/liamawhite/cli-with-i18n/cf/errors"
+	"github.com/liamawhite/cli-with-i18n/cf/models"
+	"github.com/liamawhite/cli-with-i18n/cf/requirements"
+	"github.com/liamawhite/cli-with-i18n/cf/requirements/requirementsfakes"
 
-	"code.cloudfoundry.org/cli/cf/api/apifakes"
-	testcmd "code.cloudfoundry.org/cli/util/testhelpers/commands"
-	testconfig "code.cloudfoundry.org/cli/util/testhelpers/configuration"
-	testterm "code.cloudfoundry.org/cli/util/testhelpers/terminal"
+	"github.com/liamawhite/cli-with-i18n/cf/api/apifakes"
+	testcmd "github.com/liamawhite/cli-with-i18n/util/testhelpers/commands"
+	testconfig "github.com/liamawhite/cli-with-i18n/util/testhelpers/configuration"
+	testterm "github.com/liamawhite/cli-with-i18n/util/testhelpers/terminal"
 
-	"code.cloudfoundry.org/cli/cf/commandregistry"
+	"github.com/liamawhite/cli-with-i18n/cf/commandregistry"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	. "code.cloudfoundry.org/cli/util/testhelpers/matchers"
+	. "github.com/liamawhite/cli-with-i18n/util/testhelpers/matchers"
 )
 
 var _ = Describe("create-service command", func() {

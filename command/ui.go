@@ -4,7 +4,7 @@ import (
 	"io"
 	"time"
 
-	"code.cloudfoundry.org/cli/util/ui"
+	"github.com/liamawhite/cli-with-i18n/util/ui"
 )
 
 // UI is the interface to STDOUT

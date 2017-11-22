@@ -4,8 +4,8 @@ package pluginactionfakes
 import (
 	"sync"
 
-	"code.cloudfoundry.org/cli/actor/pluginaction"
-	"code.cloudfoundry.org/cli/api/plugin"
+	"github.com/liamawhite/cli-with-i18n/actor/pluginaction"
+	"github.com/liamawhite/cli-with-i18n/api/plugin"
 )
 
 type FakePluginClient struct {

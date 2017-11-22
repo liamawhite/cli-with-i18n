@@ -3,11 +3,11 @@ package servicebuilder_test
 import (
 	"errors"
 
-	"code.cloudfoundry.org/cli/cf/actors/planbuilder/planbuilderfakes"
-	"code.cloudfoundry.org/cli/cf/actors/servicebuilder"
-	"code.cloudfoundry.org/cli/cf/api/apifakes"
+	"github.com/liamawhite/cli-with-i18n/cf/actors/planbuilder/planbuilderfakes"
+	"github.com/liamawhite/cli-with-i18n/cf/actors/servicebuilder"
+	"github.com/liamawhite/cli-with-i18n/cf/api/apifakes"
 
-	"code.cloudfoundry.org/cli/cf/models"
+	"github.com/liamawhite/cli-with-i18n/cf/models"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

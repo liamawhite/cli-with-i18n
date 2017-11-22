@@ -4,9 +4,9 @@ import (
 	"errors"
 	"time"
 
-	"code.cloudfoundry.org/cli/actor/v3action"
-	. "code.cloudfoundry.org/cli/command/v3/shared"
-	"code.cloudfoundry.org/cli/util/ui"
+	"github.com/liamawhite/cli-with-i18n/actor/v3action"
+	. "github.com/liamawhite/cli-with-i18n/command/v3/shared"
+	"github.com/liamawhite/cli-with-i18n/util/ui"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

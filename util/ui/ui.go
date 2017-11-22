@@ -13,9 +13,9 @@ import (
 	"sync"
 	"time"
 
-	"code.cloudfoundry.org/cli/command/translatableerror"
-	"code.cloudfoundry.org/cli/util/configv3"
 	"github.com/fatih/color"
+	"github.com/liamawhite/cli-with-i18n/command/translatableerror"
+	"github.com/liamawhite/cli-with-i18n/util/configv3"
 	"github.com/lunixbochs/vtclean"
 	runewidth "github.com/mattn/go-runewidth"
 	"github.com/vito/go-interact/interact"

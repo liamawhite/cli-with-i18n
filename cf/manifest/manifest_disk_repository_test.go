@@ -3,7 +3,7 @@ package manifest_test
 import (
 	"path/filepath"
 
-	. "code.cloudfoundry.org/cli/cf/manifest"
+	. "github.com/liamawhite/cli-with-i18n/cf/manifest"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

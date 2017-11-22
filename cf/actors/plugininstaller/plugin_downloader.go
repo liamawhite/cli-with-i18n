@@ -6,10 +6,10 @@ import (
 	"path/filepath"
 	"runtime"
 
-	. "code.cloudfoundry.org/cli/cf/i18n"
-	"code.cloudfoundry.org/cli/cf/terminal"
-	"code.cloudfoundry.org/cli/util/downloader"
 	clipr "github.com/cloudfoundry-incubator/cli-plugin-repo/web"
+	. "github.com/liamawhite/cli-with-i18n/cf/i18n"
+	"github.com/liamawhite/cli-with-i18n/cf/terminal"
+	"github.com/liamawhite/cli-with-i18n/util/downloader"
 )
 
 type PluginDownloader struct {

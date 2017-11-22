@@ -1,7 +1,7 @@
 package flag
 
 import (
-	"code.cloudfoundry.org/cli/types"
+	"github.com/liamawhite/cli-with-i18n/types"
 )
 
 type Command struct {

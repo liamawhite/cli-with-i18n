@@ -4,8 +4,8 @@ package sharedfakes
 import (
 	"sync"
 
-	"code.cloudfoundry.org/cli/actor/v3action"
-	"code.cloudfoundry.org/cli/command/v3/shared"
+	"github.com/liamawhite/cli-with-i18n/actor/v3action"
+	"github.com/liamawhite/cli-with-i18n/command/v3/shared"
 )
 
 type FakeV3AppSummaryActor struct {

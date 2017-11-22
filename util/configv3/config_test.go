@@ -7,8 +7,8 @@ import (
 	"path/filepath"
 	"time"
 
-	"code.cloudfoundry.org/cli/command/translatableerror"
-	. "code.cloudfoundry.org/cli/util/configv3"
+	"github.com/liamawhite/cli-with-i18n/command/translatableerror"
+	. "github.com/liamawhite/cli-with-i18n/util/configv3"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/ginkgo/extensions/table"

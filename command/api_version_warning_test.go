@@ -1,10 +1,10 @@
 package command_test
 
 import (
-	. "code.cloudfoundry.org/cli/command"
-	"code.cloudfoundry.org/cli/command/commandfakes"
-	"code.cloudfoundry.org/cli/util/ui"
-	"code.cloudfoundry.org/cli/version"
+	. "github.com/liamawhite/cli-with-i18n/command"
+	"github.com/liamawhite/cli-with-i18n/command/commandfakes"
+	"github.com/liamawhite/cli-with-i18n/util/ui"
+	"github.com/liamawhite/cli-with-i18n/version"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	. "github.com/onsi/gomega/gbytes"

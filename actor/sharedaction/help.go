@@ -6,7 +6,7 @@ import (
 	"sort"
 	"strings"
 
-	"code.cloudfoundry.org/cli/util/sorting"
+	"github.com/liamawhite/cli-with-i18n/util/sorting"
 )
 
 // ErrorInvalidCommand represents an error that happens when help is called

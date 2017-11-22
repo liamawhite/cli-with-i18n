@@ -3,8 +3,8 @@ package plugin
 import (
 	"os"
 
-	"code.cloudfoundry.org/cli/cf/cmd"
-	"code.cloudfoundry.org/cli/command"
+	"github.com/liamawhite/cli-with-i18n/cf/cmd"
+	"github.com/liamawhite/cli-with-i18n/command"
 )
 
 type ListPluginReposCommand struct {

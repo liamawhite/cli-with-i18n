@@ -5,10 +5,10 @@ import (
 	"io/ioutil"
 	"os"
 
-	. "code.cloudfoundry.org/cli/actor/v2action"
-	"code.cloudfoundry.org/cli/actor/v2action/v2actionfakes"
-	"code.cloudfoundry.org/cli/api/cloudcontroller/ccv2"
-	"code.cloudfoundry.org/cli/types"
+	. "github.com/liamawhite/cli-with-i18n/actor/v2action"
+	"github.com/liamawhite/cli-with-i18n/actor/v2action/v2actionfakes"
+	"github.com/liamawhite/cli-with-i18n/api/cloudcontroller/ccv2"
+	"github.com/liamawhite/cli-with-i18n/types"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

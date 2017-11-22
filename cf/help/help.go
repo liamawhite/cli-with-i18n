@@ -11,13 +11,13 @@ import (
 
 	"path/filepath"
 
-	"code.cloudfoundry.org/cli/cf/commandregistry"
-	"code.cloudfoundry.org/cli/cf/configuration"
-	"code.cloudfoundry.org/cli/cf/configuration/confighelpers"
-	"code.cloudfoundry.org/cli/cf/configuration/pluginconfig"
-	. "code.cloudfoundry.org/cli/cf/i18n"
-	"code.cloudfoundry.org/cli/cf/terminal"
-	"code.cloudfoundry.org/cli/version"
+	"github.com/liamawhite/cli-with-i18n/cf/commandregistry"
+	"github.com/liamawhite/cli-with-i18n/cf/configuration"
+	"github.com/liamawhite/cli-with-i18n/cf/configuration/confighelpers"
+	"github.com/liamawhite/cli-with-i18n/cf/configuration/pluginconfig"
+	. "github.com/liamawhite/cli-with-i18n/cf/i18n"
+	"github.com/liamawhite/cli-with-i18n/cf/terminal"
+	"github.com/liamawhite/cli-with-i18n/version"
 )
 
 type appPresenter struct {

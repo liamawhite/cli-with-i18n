@@ -1,7 +1,7 @@
 package errors
 
 import (
-	. "code.cloudfoundry.org/cli/cf/i18n"
+	. "github.com/liamawhite/cli-with-i18n/cf/i18n"
 )
 
 type UnbindableServiceError struct {

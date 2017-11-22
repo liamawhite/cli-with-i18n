@@ -6,9 +6,9 @@ import (
 	"os"
 	"path/filepath"
 
-	. "code.cloudfoundry.org/cli/actor/sharedaction"
-	"code.cloudfoundry.org/cli/actor/sharedaction/sharedactionfakes"
 	"code.cloudfoundry.org/ykk"
+	. "github.com/liamawhite/cli-with-i18n/actor/sharedaction"
+	"github.com/liamawhite/cli-with-i18n/actor/sharedaction/sharedactionfakes"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

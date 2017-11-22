@@ -4,8 +4,8 @@ package applicationfakes
 import (
 	"sync"
 
-	"code.cloudfoundry.org/cli/cf/commands/application"
-	"code.cloudfoundry.org/cli/cf/models"
+	"github.com/liamawhite/cli-with-i18n/cf/commands/application"
+	"github.com/liamawhite/cli-with-i18n/cf/models"
 )
 
 type FakeStagingWatcher struct {

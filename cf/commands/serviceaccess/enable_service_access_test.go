@@ -3,17 +3,17 @@ package serviceaccess_test
 import (
 	"errors"
 
-	"code.cloudfoundry.org/cli/cf/actors/actorsfakes"
-	"code.cloudfoundry.org/cli/cf/api/authentication/authenticationfakes"
-	"code.cloudfoundry.org/cli/cf/commandregistry"
-	"code.cloudfoundry.org/cli/cf/configuration/coreconfig"
-	"code.cloudfoundry.org/cli/cf/requirements"
-	"code.cloudfoundry.org/cli/cf/requirements/requirementsfakes"
-	testcmd "code.cloudfoundry.org/cli/util/testhelpers/commands"
-	"code.cloudfoundry.org/cli/util/testhelpers/configuration"
-	testterm "code.cloudfoundry.org/cli/util/testhelpers/terminal"
+	"github.com/liamawhite/cli-with-i18n/cf/actors/actorsfakes"
+	"github.com/liamawhite/cli-with-i18n/cf/api/authentication/authenticationfakes"
+	"github.com/liamawhite/cli-with-i18n/cf/commandregistry"
+	"github.com/liamawhite/cli-with-i18n/cf/configuration/coreconfig"
+	"github.com/liamawhite/cli-with-i18n/cf/requirements"
+	"github.com/liamawhite/cli-with-i18n/cf/requirements/requirementsfakes"
+	testcmd "github.com/liamawhite/cli-with-i18n/util/testhelpers/commands"
+	"github.com/liamawhite/cli-with-i18n/util/testhelpers/configuration"
+	testterm "github.com/liamawhite/cli-with-i18n/util/testhelpers/terminal"
 
-	. "code.cloudfoundry.org/cli/util/testhelpers/matchers"
+	. "github.com/liamawhite/cli-with-i18n/util/testhelpers/matchers"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

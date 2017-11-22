@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"net/http"
 
-	. "code.cloudfoundry.org/cli/api/uaa"
-	"code.cloudfoundry.org/cli/integration/helpers"
+	. "github.com/liamawhite/cli-with-i18n/api/uaa"
+	"github.com/liamawhite/cli-with-i18n/integration/helpers"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	. "github.com/onsi/gomega/ghttp"

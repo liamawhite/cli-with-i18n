@@ -2,7 +2,7 @@
 // TokenRefresher interface for noaa/consumer.
 package noaabridge
 
-import "code.cloudfoundry.org/cli/api/uaa"
+import "github.com/liamawhite/cli-with-i18n/api/uaa"
 
 //go:generate counterfeiter . UAAClient
 

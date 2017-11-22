@@ -5,8 +5,8 @@ import (
 	"sort"
 	"strings"
 
-	"code.cloudfoundry.org/cli/cf/i18n"
 	flags "github.com/jessevdk/go-flags"
+	"github.com/liamawhite/cli-with-i18n/cf/i18n"
 )
 
 type Locale struct {

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"code.cloudfoundry.org/cli/types"
+	"github.com/liamawhite/cli-with-i18n/types"
 )
 
 type Application struct {

@@ -5,10 +5,10 @@ import (
 	"net/http"
 	"time"
 
-	"code.cloudfoundry.org/cli/api/uaa"
-	"code.cloudfoundry.org/cli/api/uaa/noaabridge"
-	"code.cloudfoundry.org/cli/command"
 	"github.com/cloudfoundry/noaa/consumer"
+	"github.com/liamawhite/cli-with-i18n/api/uaa"
+	"github.com/liamawhite/cli-with-i18n/api/uaa/noaabridge"
+	"github.com/liamawhite/cli-with-i18n/command"
 )
 
 type RequestLoggerOutput interface {

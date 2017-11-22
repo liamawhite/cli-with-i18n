@@ -3,7 +3,7 @@ package flag
 import (
 	"strings"
 
-	"code.cloudfoundry.org/cli/types"
+	"github.com/liamawhite/cli-with-i18n/types"
 
 	"github.com/cloudfoundry/bytefmt"
 	flags "github.com/jessevdk/go-flags"

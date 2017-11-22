@@ -3,21 +3,21 @@ package commands_test
 import (
 	"strconv"
 
-	"code.cloudfoundry.org/cli/cf/api/authentication/authenticationfakes"
-	"code.cloudfoundry.org/cli/cf/api/organizations/organizationsfakes"
-	"code.cloudfoundry.org/cli/cf/api/spaces/spacesfakes"
-	"code.cloudfoundry.org/cli/cf/commandregistry"
-	"code.cloudfoundry.org/cli/cf/configuration/coreconfig"
-	"code.cloudfoundry.org/cli/cf/configuration/coreconfig/coreconfigfakes"
-	"code.cloudfoundry.org/cli/cf/errors"
-	"code.cloudfoundry.org/cli/cf/models"
-	testcmd "code.cloudfoundry.org/cli/util/testhelpers/commands"
-	testconfig "code.cloudfoundry.org/cli/util/testhelpers/configuration"
-	testterm "code.cloudfoundry.org/cli/util/testhelpers/terminal"
+	"github.com/liamawhite/cli-with-i18n/cf/api/authentication/authenticationfakes"
+	"github.com/liamawhite/cli-with-i18n/cf/api/organizations/organizationsfakes"
+	"github.com/liamawhite/cli-with-i18n/cf/api/spaces/spacesfakes"
+	"github.com/liamawhite/cli-with-i18n/cf/commandregistry"
+	"github.com/liamawhite/cli-with-i18n/cf/configuration/coreconfig"
+	"github.com/liamawhite/cli-with-i18n/cf/configuration/coreconfig/coreconfigfakes"
+	"github.com/liamawhite/cli-with-i18n/cf/errors"
+	"github.com/liamawhite/cli-with-i18n/cf/models"
+	testcmd "github.com/liamawhite/cli-with-i18n/util/testhelpers/commands"
+	testconfig "github.com/liamawhite/cli-with-i18n/util/testhelpers/configuration"
+	testterm "github.com/liamawhite/cli-with-i18n/util/testhelpers/terminal"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	. "code.cloudfoundry.org/cli/util/testhelpers/matchers"
+	. "github.com/liamawhite/cli-with-i18n/util/testhelpers/matchers"
 )
 
 var _ = Describe("Login Command", func() {

@@ -1,6 +1,6 @@
 package plugin
 
-import "code.cloudfoundry.org/cli/plugin/models"
+import "github.com/liamawhite/cli-with-i18n/plugin/models"
 
 /**
 	Command interface needs to be implemented for a runnable plugin of `cf`

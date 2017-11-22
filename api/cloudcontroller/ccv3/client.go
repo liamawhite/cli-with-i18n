@@ -71,8 +71,8 @@ import (
 	"runtime"
 	"time"
 
-	"code.cloudfoundry.org/cli/api/cloudcontroller"
-	"code.cloudfoundry.org/cli/api/cloudcontroller/ccv3/internal"
+	"github.com/liamawhite/cli-with-i18n/api/cloudcontroller"
+	"github.com/liamawhite/cli-with-i18n/api/cloudcontroller/ccv3/internal"
 )
 
 // Warnings are a collection of warnings that the Cloud Controller can return

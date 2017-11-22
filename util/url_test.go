@@ -1,7 +1,7 @@
 package util_test
 
 import (
-	. "code.cloudfoundry.org/cli/util"
+	. "github.com/liamawhite/cli-with-i18n/util"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/ginkgo/extensions/table"

@@ -1,6 +1,6 @@
 package main
 
-import "code.cloudfoundry.org/cli/plugin"
+import "github.com/liamawhite/cli-with-i18n/plugin"
 
 type EmptyPlugin struct{}
 

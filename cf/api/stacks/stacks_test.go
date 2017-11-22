@@ -4,18 +4,18 @@ import (
 	"net/http"
 	"time"
 
-	"code.cloudfoundry.org/cli/cf/configuration/coreconfig"
-	"code.cloudfoundry.org/cli/cf/errors"
-	"code.cloudfoundry.org/cli/cf/models"
-	"code.cloudfoundry.org/cli/cf/net"
+	"github.com/liamawhite/cli-with-i18n/cf/configuration/coreconfig"
+	"github.com/liamawhite/cli-with-i18n/cf/errors"
+	"github.com/liamawhite/cli-with-i18n/cf/models"
+	"github.com/liamawhite/cli-with-i18n/cf/net"
 
-	"code.cloudfoundry.org/cli/cf/terminal/terminalfakes"
-	testconfig "code.cloudfoundry.org/cli/util/testhelpers/configuration"
+	"github.com/liamawhite/cli-with-i18n/cf/terminal/terminalfakes"
+	testconfig "github.com/liamawhite/cli-with-i18n/util/testhelpers/configuration"
 
 	"github.com/onsi/gomega/ghttp"
 
-	. "code.cloudfoundry.org/cli/cf/api/stacks"
-	"code.cloudfoundry.org/cli/cf/trace/tracefakes"
+	. "github.com/liamawhite/cli-with-i18n/cf/api/stacks"
+	"github.com/liamawhite/cli-with-i18n/cf/trace/tracefakes"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

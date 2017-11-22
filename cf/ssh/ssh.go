@@ -19,11 +19,11 @@ import (
 
 	"golang.org/x/crypto/ssh"
 
-	"code.cloudfoundry.org/cli/cf/models"
-	"code.cloudfoundry.org/cli/cf/ssh/options"
-	"code.cloudfoundry.org/cli/cf/ssh/sigwinch"
-	"code.cloudfoundry.org/cli/cf/ssh/terminal"
 	"github.com/docker/docker/pkg/term"
+	"github.com/liamawhite/cli-with-i18n/cf/models"
+	"github.com/liamawhite/cli-with-i18n/cf/ssh/options"
+	"github.com/liamawhite/cli-with-i18n/cf/ssh/sigwinch"
+	"github.com/liamawhite/cli-with-i18n/cf/ssh/terminal"
 )
 
 const (

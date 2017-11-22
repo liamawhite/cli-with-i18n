@@ -3,12 +3,12 @@ package v2_test
 import (
 	"errors"
 
-	"code.cloudfoundry.org/cli/actor/sharedaction"
-	"code.cloudfoundry.org/cli/command/commandfakes"
-	"code.cloudfoundry.org/cli/command/translatableerror"
-	. "code.cloudfoundry.org/cli/command/v2"
-	"code.cloudfoundry.org/cli/command/v2/v2fakes"
-	"code.cloudfoundry.org/cli/util/ui"
+	"github.com/liamawhite/cli-with-i18n/actor/sharedaction"
+	"github.com/liamawhite/cli-with-i18n/command/commandfakes"
+	"github.com/liamawhite/cli-with-i18n/command/translatableerror"
+	. "github.com/liamawhite/cli-with-i18n/command/v2"
+	"github.com/liamawhite/cli-with-i18n/command/v2/v2fakes"
+	"github.com/liamawhite/cli-with-i18n/util/ui"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	. "github.com/onsi/gomega/gbytes"

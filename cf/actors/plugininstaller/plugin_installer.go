@@ -1,11 +1,11 @@
 package plugininstaller
 
 import (
-	"code.cloudfoundry.org/cli/cf/actors/pluginrepo"
-	"code.cloudfoundry.org/cli/cf/models"
-	"code.cloudfoundry.org/cli/cf/terminal"
-	"code.cloudfoundry.org/cli/util"
-	"code.cloudfoundry.org/cli/util/downloader"
+	"github.com/liamawhite/cli-with-i18n/cf/actors/pluginrepo"
+	"github.com/liamawhite/cli-with-i18n/cf/models"
+	"github.com/liamawhite/cli-with-i18n/cf/terminal"
+	"github.com/liamawhite/cli-with-i18n/util"
+	"github.com/liamawhite/cli-with-i18n/util/downloader"
 )
 
 //go:generate counterfeiter . PluginInstaller

@@ -1,8 +1,8 @@
 package shared
 
 import (
-	"code.cloudfoundry.org/cli/actor/v3action"
-	"code.cloudfoundry.org/cli/command"
+	"github.com/liamawhite/cli-with-i18n/actor/v3action"
+	"github.com/liamawhite/cli-with-i18n/command"
 )
 
 func PollStage(dropletStream <-chan v3action.Droplet, warningsStream <-chan v3action.Warnings, errStream <-chan error, logStream <-chan *v3action.LogMessage, logErrStream <-chan error, ui command.UI) (v3action.Droplet, error) {

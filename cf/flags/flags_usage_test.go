@@ -3,7 +3,7 @@ package flags_test
 import (
 	"strings"
 
-	"code.cloudfoundry.org/cli/cf/flags"
+	"github.com/liamawhite/cli-with-i18n/cf/flags"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

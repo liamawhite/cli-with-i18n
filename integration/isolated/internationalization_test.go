@@ -1,7 +1,7 @@
 package isolated
 
 import (
-	helpers "code.cloudfoundry.org/cli/integration/helpers"
+	helpers "github.com/liamawhite/cli-with-i18n/integration/helpers"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/ginkgo/extensions/table"
 	. "github.com/onsi/gomega"

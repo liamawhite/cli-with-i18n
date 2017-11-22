@@ -5,7 +5,7 @@ import (
 	"net/url"
 	"strings"
 
-	"code.cloudfoundry.org/cli/api/uaa/internal"
+	"github.com/liamawhite/cli-with-i18n/api/uaa/internal"
 )
 
 // AuthResponse contains the access token and refresh token which are granted

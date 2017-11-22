@@ -1,9 +1,9 @@
 package pushaction_test
 
 import (
-	. "code.cloudfoundry.org/cli/actor/pushaction"
-	"code.cloudfoundry.org/cli/types"
-	"code.cloudfoundry.org/cli/util/manifest"
+	. "github.com/liamawhite/cli-with-i18n/actor/pushaction"
+	"github.com/liamawhite/cli-with-i18n/types"
+	"github.com/liamawhite/cli-with-i18n/util/manifest"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/ginkgo/extensions/table"

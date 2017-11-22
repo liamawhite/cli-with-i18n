@@ -3,8 +3,8 @@ package pushaction
 import (
 	"os"
 
-	"code.cloudfoundry.org/cli/actor/sharedaction"
-	"code.cloudfoundry.org/cli/actor/v2action"
+	"github.com/liamawhite/cli-with-i18n/actor/sharedaction"
+	"github.com/liamawhite/cli-with-i18n/actor/v2action"
 
 	log "github.com/sirupsen/logrus"
 )

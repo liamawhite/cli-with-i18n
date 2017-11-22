@@ -1,12 +1,12 @@
 package plugin_test
 
 import (
-	"code.cloudfoundry.org/cli/actor/pluginaction"
-	"code.cloudfoundry.org/cli/command/commandfakes"
-	. "code.cloudfoundry.org/cli/command/plugin"
-	"code.cloudfoundry.org/cli/command/plugin/pluginfakes"
-	"code.cloudfoundry.org/cli/command/translatableerror"
-	"code.cloudfoundry.org/cli/util/ui"
+	"github.com/liamawhite/cli-with-i18n/actor/pluginaction"
+	"github.com/liamawhite/cli-with-i18n/command/commandfakes"
+	. "github.com/liamawhite/cli-with-i18n/command/plugin"
+	"github.com/liamawhite/cli-with-i18n/command/plugin/pluginfakes"
+	"github.com/liamawhite/cli-with-i18n/command/translatableerror"
+	"github.com/liamawhite/cli-with-i18n/util/ui"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	. "github.com/onsi/gomega/gbytes"

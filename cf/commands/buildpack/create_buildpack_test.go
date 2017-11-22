@@ -3,15 +3,15 @@ package buildpack_test
 import (
 	"fmt"
 
-	"code.cloudfoundry.org/cli/cf"
-	"code.cloudfoundry.org/cli/cf/api/apifakes"
-	"code.cloudfoundry.org/cli/cf/requirements"
-	"code.cloudfoundry.org/cli/cf/requirements/requirementsfakes"
-	testcmd "code.cloudfoundry.org/cli/util/testhelpers/commands"
-	testterm "code.cloudfoundry.org/cli/util/testhelpers/terminal"
+	"github.com/liamawhite/cli-with-i18n/cf"
+	"github.com/liamawhite/cli-with-i18n/cf/api/apifakes"
+	"github.com/liamawhite/cli-with-i18n/cf/requirements"
+	"github.com/liamawhite/cli-with-i18n/cf/requirements/requirementsfakes"
+	testcmd "github.com/liamawhite/cli-with-i18n/util/testhelpers/commands"
+	testterm "github.com/liamawhite/cli-with-i18n/util/testhelpers/terminal"
 
-	"code.cloudfoundry.org/cli/cf/commandregistry"
-	. "code.cloudfoundry.org/cli/util/testhelpers/matchers"
+	"github.com/liamawhite/cli-with-i18n/cf/commandregistry"
+	. "github.com/liamawhite/cli-with-i18n/util/testhelpers/matchers"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

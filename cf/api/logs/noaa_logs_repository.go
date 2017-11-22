@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"time"
 
-	. "code.cloudfoundry.org/cli/cf/i18n"
+	. "github.com/liamawhite/cli-with-i18n/cf/i18n"
 
-	"code.cloudfoundry.org/cli/cf/api/authentication"
-	"code.cloudfoundry.org/cli/cf/configuration/coreconfig"
+	"github.com/liamawhite/cli-with-i18n/cf/api/authentication"
+	"github.com/liamawhite/cli-with-i18n/cf/configuration/coreconfig"
 
 	"github.com/cloudfoundry/noaa"
 	noaaerrors "github.com/cloudfoundry/noaa/errors"

@@ -3,7 +3,7 @@ package v2action
 import (
 	"sort"
 
-	"code.cloudfoundry.org/cli/api/cloudcontroller/ccv2"
+	"github.com/liamawhite/cli-with-i18n/api/cloudcontroller/ccv2"
 )
 
 type SecurityGroupRule struct {

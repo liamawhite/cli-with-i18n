@@ -3,7 +3,7 @@ package v2action
 import (
 	"io"
 
-	"code.cloudfoundry.org/cli/api/cloudcontroller/ccv2"
+	"github.com/liamawhite/cli-with-i18n/api/cloudcontroller/ccv2"
 )
 
 type Job ccv2.Job

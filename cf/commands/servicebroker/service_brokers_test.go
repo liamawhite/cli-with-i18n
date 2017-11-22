@@ -3,23 +3,23 @@ package servicebroker_test
 import (
 	"errors"
 
-	"code.cloudfoundry.org/cli/cf/api/apifakes"
-	"code.cloudfoundry.org/cli/cf/commandregistry"
-	"code.cloudfoundry.org/cli/cf/configuration/coreconfig"
-	"code.cloudfoundry.org/cli/cf/flags"
-	"code.cloudfoundry.org/cli/cf/models"
-	"code.cloudfoundry.org/cli/cf/requirements"
-	"code.cloudfoundry.org/cli/cf/requirements/requirementsfakes"
-	testcmd "code.cloudfoundry.org/cli/util/testhelpers/commands"
-	testconfig "code.cloudfoundry.org/cli/util/testhelpers/configuration"
-	testterm "code.cloudfoundry.org/cli/util/testhelpers/terminal"
+	"github.com/liamawhite/cli-with-i18n/cf/api/apifakes"
+	"github.com/liamawhite/cli-with-i18n/cf/commandregistry"
+	"github.com/liamawhite/cli-with-i18n/cf/configuration/coreconfig"
+	"github.com/liamawhite/cli-with-i18n/cf/flags"
+	"github.com/liamawhite/cli-with-i18n/cf/models"
+	"github.com/liamawhite/cli-with-i18n/cf/requirements"
+	"github.com/liamawhite/cli-with-i18n/cf/requirements/requirementsfakes"
+	testcmd "github.com/liamawhite/cli-with-i18n/util/testhelpers/commands"
+	testconfig "github.com/liamawhite/cli-with-i18n/util/testhelpers/configuration"
+	testterm "github.com/liamawhite/cli-with-i18n/util/testhelpers/terminal"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
 	"strings"
 
-	"code.cloudfoundry.org/cli/cf/commands/servicebroker"
-	. "code.cloudfoundry.org/cli/util/testhelpers/matchers"
+	"github.com/liamawhite/cli-with-i18n/cf/commands/servicebroker"
+	. "github.com/liamawhite/cli-with-i18n/util/testhelpers/matchers"
 )
 
 var _ = Describe("service-brokers command", func() {

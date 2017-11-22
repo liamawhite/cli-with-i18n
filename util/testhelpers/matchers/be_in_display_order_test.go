@@ -3,7 +3,7 @@ package matchers_test
 import (
 	"strings"
 
-	. "code.cloudfoundry.org/cli/util/testhelpers/matchers"
+	. "github.com/liamawhite/cli-with-i18n/util/testhelpers/matchers"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

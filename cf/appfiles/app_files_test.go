@@ -7,11 +7,11 @@ import (
 	"runtime"
 	"strings"
 
-	"code.cloudfoundry.org/cli/cf/appfiles"
+	"github.com/liamawhite/cli-with-i18n/cf/appfiles"
 	"github.com/nu7hatch/gouuid"
 
-	"code.cloudfoundry.org/cli/cf/models"
 	"code.cloudfoundry.org/gofileutils/fileutils"
+	"github.com/liamawhite/cli-with-i18n/cf/models"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

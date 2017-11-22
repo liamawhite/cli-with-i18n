@@ -3,9 +3,9 @@ package pushaction_test
 import (
 	"errors"
 
-	. "code.cloudfoundry.org/cli/actor/pushaction"
-	"code.cloudfoundry.org/cli/actor/pushaction/pushactionfakes"
-	"code.cloudfoundry.org/cli/actor/v2action"
+	. "github.com/liamawhite/cli-with-i18n/actor/pushaction"
+	"github.com/liamawhite/cli-with-i18n/actor/pushaction/pushactionfakes"
+	"github.com/liamawhite/cli-with-i18n/actor/v2action"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

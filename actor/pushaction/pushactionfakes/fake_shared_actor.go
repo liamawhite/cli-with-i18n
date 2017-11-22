@@ -4,8 +4,8 @@ package pushactionfakes
 import (
 	"sync"
 
-	"code.cloudfoundry.org/cli/actor/pushaction"
-	"code.cloudfoundry.org/cli/actor/sharedaction"
+	"github.com/liamawhite/cli-with-i18n/actor/pushaction"
+	"github.com/liamawhite/cli-with-i18n/actor/sharedaction"
 )
 
 type FakeSharedActor struct {

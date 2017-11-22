@@ -6,8 +6,8 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"code.cloudfoundry.org/cli/cf/terminal"
 	"github.com/cloudfoundry/sonde-go/events"
+	"github.com/liamawhite/cli-with-i18n/cf/terminal"
 )
 
 type noaaLogMessage struct {

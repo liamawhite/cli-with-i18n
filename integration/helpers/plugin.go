@@ -38,7 +38,7 @@ func BuildConfigurablePlugin(pluginType string, name string, version string, plu
 		commandHelps = append(commandHelps, command.Help)
 	}
 
-	pluginPath, err := Build(fmt.Sprintf("code.cloudfoundry.org/cli/integration/assets/%s", pluginType),
+	pluginPath, err := Build(fmt.Sprintf("github.com/liamawhite/cli-with-i18n/integration/assets/%s", pluginType),
 		"-o",
 		name,
 		"-ldflags",

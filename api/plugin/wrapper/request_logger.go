@@ -7,7 +7,7 @@ import (
 	"sort"
 	"time"
 
-	"code.cloudfoundry.org/cli/api/plugin"
+	"github.com/liamawhite/cli-with-i18n/api/plugin"
 )
 
 //go:generate counterfeiter . RequestLoggerOutput

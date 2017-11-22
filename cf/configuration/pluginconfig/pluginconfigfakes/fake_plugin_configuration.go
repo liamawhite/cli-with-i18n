@@ -4,7 +4,7 @@ package pluginconfigfakes
 import (
 	"sync"
 
-	"code.cloudfoundry.org/cli/cf/configuration/pluginconfig"
+	"github.com/liamawhite/cli-with-i18n/cf/configuration/pluginconfig"
 )
 
 type FakePluginConfiguration struct {

@@ -12,7 +12,7 @@ import (
 	"strings"
 	"time"
 
-	"code.cloudfoundry.org/cli/api/cloudcontroller/ccerror"
+	"github.com/liamawhite/cli-with-i18n/api/cloudcontroller/ccerror"
 )
 
 // CloudControllerConnection represents a connection to the Cloud Controller

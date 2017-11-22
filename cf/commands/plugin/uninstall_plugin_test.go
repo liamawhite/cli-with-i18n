@@ -5,17 +5,17 @@ import (
 	"os"
 	"path/filepath"
 
-	"code.cloudfoundry.org/cli/cf/commandregistry"
-	"code.cloudfoundry.org/cli/cf/configuration"
-	"code.cloudfoundry.org/cli/cf/configuration/confighelpers"
-	"code.cloudfoundry.org/cli/cf/configuration/pluginconfig"
-	"code.cloudfoundry.org/cli/cf/requirements/requirementsfakes"
 	"code.cloudfoundry.org/gofileutils/fileutils"
+	"github.com/liamawhite/cli-with-i18n/cf/commandregistry"
+	"github.com/liamawhite/cli-with-i18n/cf/configuration"
+	"github.com/liamawhite/cli-with-i18n/cf/configuration/confighelpers"
+	"github.com/liamawhite/cli-with-i18n/cf/configuration/pluginconfig"
+	"github.com/liamawhite/cli-with-i18n/cf/requirements/requirementsfakes"
 
-	testcmd "code.cloudfoundry.org/cli/util/testhelpers/commands"
-	testterm "code.cloudfoundry.org/cli/util/testhelpers/terminal"
+	testcmd "github.com/liamawhite/cli-with-i18n/util/testhelpers/commands"
+	testterm "github.com/liamawhite/cli-with-i18n/util/testhelpers/terminal"
 
-	. "code.cloudfoundry.org/cli/util/testhelpers/matchers"
+	. "github.com/liamawhite/cli-with-i18n/util/testhelpers/matchers"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

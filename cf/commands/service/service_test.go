@@ -1,21 +1,21 @@
 package service_test
 
 import (
-	"code.cloudfoundry.org/cli/cf/api"
-	"code.cloudfoundry.org/cli/cf/commandregistry"
-	"code.cloudfoundry.org/cli/cf/commands/service"
-	"code.cloudfoundry.org/cli/cf/flags"
-	"code.cloudfoundry.org/cli/cf/models"
-	"code.cloudfoundry.org/cli/cf/requirements"
+	"github.com/liamawhite/cli-with-i18n/cf/api"
+	"github.com/liamawhite/cli-with-i18n/cf/commandregistry"
+	"github.com/liamawhite/cli-with-i18n/cf/commands/service"
+	"github.com/liamawhite/cli-with-i18n/cf/flags"
+	"github.com/liamawhite/cli-with-i18n/cf/models"
+	"github.com/liamawhite/cli-with-i18n/cf/requirements"
 
-	"code.cloudfoundry.org/cli/cf/requirements/requirementsfakes"
-	testterm "code.cloudfoundry.org/cli/util/testhelpers/terminal"
+	"github.com/liamawhite/cli-with-i18n/cf/requirements/requirementsfakes"
+	testterm "github.com/liamawhite/cli-with-i18n/util/testhelpers/terminal"
 
 	"fmt"
 
-	"code.cloudfoundry.org/cli/cf/api/applications/applicationsfakes"
-	"code.cloudfoundry.org/cli/plugin/models"
-	. "code.cloudfoundry.org/cli/util/testhelpers/matchers"
+	"github.com/liamawhite/cli-with-i18n/cf/api/applications/applicationsfakes"
+	"github.com/liamawhite/cli-with-i18n/plugin/models"
+	. "github.com/liamawhite/cli-with-i18n/util/testhelpers/matchers"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

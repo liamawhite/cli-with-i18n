@@ -1,8 +1,8 @@
 package ui_test
 
 import (
-	. "code.cloudfoundry.org/cli/util/ui"
-	"code.cloudfoundry.org/cli/util/ui/uifakes"
+	. "github.com/liamawhite/cli-with-i18n/util/ui"
+	"github.com/liamawhite/cli-with-i18n/util/ui/uifakes"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/ginkgo/extensions/table"

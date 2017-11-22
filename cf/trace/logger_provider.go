@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"strconv"
 
-	. "code.cloudfoundry.org/cli/cf/i18n"
+	. "github.com/liamawhite/cli-with-i18n/cf/i18n"
 )
 
 func NewLogger(writer io.Writer, verbose bool, boolsOrPaths ...string) Printer {

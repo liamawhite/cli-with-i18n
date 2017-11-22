@@ -3,9 +3,9 @@ package net_test
 import (
 	"os"
 
-	"code.cloudfoundry.org/cli/cf/net"
-	"code.cloudfoundry.org/cli/cf/net/netfakes"
-	"code.cloudfoundry.org/cli/cf/terminal/terminalfakes"
+	"github.com/liamawhite/cli-with-i18n/cf/net"
+	"github.com/liamawhite/cli-with-i18n/cf/net/netfakes"
+	"github.com/liamawhite/cli-with-i18n/cf/terminal/terminalfakes"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

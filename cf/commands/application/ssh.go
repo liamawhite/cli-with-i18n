@@ -8,17 +8,17 @@ import (
 
 	"golang.org/x/crypto/ssh"
 
-	"code.cloudfoundry.org/cli/cf/commandregistry"
-	"code.cloudfoundry.org/cli/cf/commands"
-	"code.cloudfoundry.org/cli/cf/configuration/coreconfig"
-	"code.cloudfoundry.org/cli/cf/flags"
-	. "code.cloudfoundry.org/cli/cf/i18n"
-	"code.cloudfoundry.org/cli/cf/net"
-	"code.cloudfoundry.org/cli/cf/requirements"
-	sshCmd "code.cloudfoundry.org/cli/cf/ssh"
-	"code.cloudfoundry.org/cli/cf/ssh/options"
-	sshTerminal "code.cloudfoundry.org/cli/cf/ssh/terminal"
-	"code.cloudfoundry.org/cli/cf/terminal"
+	"github.com/liamawhite/cli-with-i18n/cf/commandregistry"
+	"github.com/liamawhite/cli-with-i18n/cf/commands"
+	"github.com/liamawhite/cli-with-i18n/cf/configuration/coreconfig"
+	"github.com/liamawhite/cli-with-i18n/cf/flags"
+	. "github.com/liamawhite/cli-with-i18n/cf/i18n"
+	"github.com/liamawhite/cli-with-i18n/cf/net"
+	"github.com/liamawhite/cli-with-i18n/cf/requirements"
+	sshCmd "github.com/liamawhite/cli-with-i18n/cf/ssh"
+	"github.com/liamawhite/cli-with-i18n/cf/ssh/options"
+	sshTerminal "github.com/liamawhite/cli-with-i18n/cf/ssh/terminal"
+	"github.com/liamawhite/cli-with-i18n/cf/terminal"
 )
 
 type SSH struct {

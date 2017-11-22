@@ -4,7 +4,7 @@ package v2fakes
 import (
 	"sync"
 
-	"code.cloudfoundry.org/cli/command/v2"
+	"github.com/liamawhite/cli-with-i18n/command/v2"
 )
 
 type FakeSSHCodeActor struct {

@@ -4,7 +4,7 @@ package uaafakes
 import (
 	"sync"
 
-	"code.cloudfoundry.org/cli/api/uaa"
+	"github.com/liamawhite/cli-with-i18n/api/uaa"
 )
 
 type FakeUAAEndpointStore struct {

@@ -3,8 +3,8 @@ package experimental
 import (
 	"strings"
 
-	"code.cloudfoundry.org/cli/api/cloudcontroller/ccv3/constant"
-	"code.cloudfoundry.org/cli/integration/helpers"
+	"github.com/liamawhite/cli-with-i18n/api/cloudcontroller/ccv3/constant"
+	"github.com/liamawhite/cli-with-i18n/integration/helpers"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	. "github.com/onsi/gomega/gbytes"

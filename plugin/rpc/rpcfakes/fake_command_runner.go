@@ -4,8 +4,8 @@ package rpcfakes
 import (
 	"sync"
 
-	"code.cloudfoundry.org/cli/cf/commandregistry"
-	"code.cloudfoundry.org/cli/plugin/rpc"
+	"github.com/liamawhite/cli-with-i18n/cf/commandregistry"
+	"github.com/liamawhite/cli-with-i18n/plugin/rpc"
 )
 
 type FakeCommandRunner struct {

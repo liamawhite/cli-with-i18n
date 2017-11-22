@@ -3,13 +3,13 @@ package space_test
 import (
 	"errors"
 
-	"code.cloudfoundry.org/cli/cf/commandregistry"
-	"code.cloudfoundry.org/cli/cf/models"
-	"code.cloudfoundry.org/cli/cf/requirements"
-	"code.cloudfoundry.org/cli/cf/requirements/requirementsfakes"
-	testcmd "code.cloudfoundry.org/cli/util/testhelpers/commands"
-	. "code.cloudfoundry.org/cli/util/testhelpers/matchers"
-	testterm "code.cloudfoundry.org/cli/util/testhelpers/terminal"
+	"github.com/liamawhite/cli-with-i18n/cf/commandregistry"
+	"github.com/liamawhite/cli-with-i18n/cf/models"
+	"github.com/liamawhite/cli-with-i18n/cf/requirements"
+	"github.com/liamawhite/cli-with-i18n/cf/requirements/requirementsfakes"
+	testcmd "github.com/liamawhite/cli-with-i18n/util/testhelpers/commands"
+	. "github.com/liamawhite/cli-with-i18n/util/testhelpers/matchers"
+	testterm "github.com/liamawhite/cli-with-i18n/util/testhelpers/terminal"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )
